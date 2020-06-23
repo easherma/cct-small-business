@@ -13,6 +13,6 @@ collections:
     - {label: Project Title, name: title, widget: string}
     - {label: Primary Partner, name: primary-partner, widget: string}
     - {label: Other Partners, name: other-partners, widget: string}
-    - {label: Description, name: description, widget: string}
-    - {label: Additional Description, name: additional-description, widget: string}
+    - {label: Description, name: description, widget: text}
+    - {label: Additional Description, name: additional-description, widget: text}
     - {label: Call to action, name: call-to-action, widget: string}
