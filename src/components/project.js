@@ -1,5 +1,6 @@
 import React from "react"
 import Card from "react-bootstrap/Card"
+import ReactMarkdown from "react-markdown"
 
 const Project = ({
   image,
@@ -17,7 +18,9 @@ const Project = ({
       <Card.Text>{primaryPartner}</Card.Text>
       <Card.Text>{otherPartners}</Card.Text>
       <Card.Text>{description}</Card.Text>
-      <Card.Text>{additionalDescription}</Card.Text>
+      <Card.Text>
+        <ReactMarkdown source={additionalDescription} />
+      </Card.Text>
       <Card.Text>{callToAction}</Card.Text>
     </Card.Body>
   </Card>
