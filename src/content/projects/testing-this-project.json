@@ -1,9 +1,9 @@
 {
   "title": "Testing this project",
-  "image": "/project-icons/uhh.png",
+  "image": "project-icons/a-model-for-increasing-the-pipeline.png",
   "primary-partner": "a partner",
   "other-partners": "a partner,a partner,a partner,a partner",
   "description": "We did so many cool things!",
-  "additional-description": "We did so many cool things!\n\n**We did so many cool things!**\n\n**Read [this](https://www.gatsbyjs.org/docs/sourcing-content-from-json-or-yaml/)**",
+  "additional-description": "Look at this text box with markdown that we turn to HTML!\n\n**We did so many cool things!**\n\n**Read [this](https://www.gatsbyjs.org/docs/sourcing-content-from-json-or-yaml/)**",
   "call-to-action": "Email Eric at ericandrewsherman@gmail.com"
 }
