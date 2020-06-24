@@ -15,6 +15,7 @@ const ProjectsData = () => {
             other_partners
             description
             additional_description
+            contact_name
             call_to_action
           }
         }
@@ -31,6 +32,7 @@ const ProjectsData = () => {
           otherPartners={node.other_partners}
           description={node.description}
           additionalDescription={node.additional_description}
+          contactName={node.contact_name}
           callToAction={node.call_to_action}
         />
       ))}
