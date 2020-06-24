@@ -4,8 +4,8 @@ import SEO from "../components/seo"
 import Layout from "../components/layout"
 import SectionHeader from "../components/section-header"
 
-import ourVision from "../images/our-vision.png"
-import explorePartnerships from "../images/explore-the-partnership-white.png"
+import ourVision from "../content/images/our-vision.png"
+import explorePartnerships from "../content/images/explore-the-partnership-white.png"
 
 import ProjectsData from "../components/projects"
 
