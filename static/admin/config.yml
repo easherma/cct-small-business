@@ -6,7 +6,7 @@ collections:
     extension: json
     label: Projects
     folder: "src/content/projects"
-    media_folder: "{{media_folder}}/project-icons"
+    media_folder: "project-icons"
     create: true
     fields:
       - { label: Project image, name: image, widget: image }
