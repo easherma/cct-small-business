@@ -1,6 +1,7 @@
 import React from "react"
 import Card from "react-bootstrap/Card"
 import ReactMarkdown from "react-markdown"
+import Linkify from "react-linkify"
 
 // some of our fields will need to be markdown and parsed,
 // in a good project we'd define and validate these datatypes,
@@ -25,7 +26,9 @@ const Project = ({
       <Card.Text>
         <ReactMarkdown source={additionalDescription} />
       </Card.Text>
-      <Card.Text>{callToAction}</Card.Text>
+      <Card.Text>
+        <Linkify>{callToAction}</Linkify>
+      </Card.Text>
     </Card.Body>
   </Card>
 )
