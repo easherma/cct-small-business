@@ -2,6 +2,10 @@ import React from "react"
 import Card from "react-bootstrap/Card"
 import ReactMarkdown from "react-markdown"
 
+// some of our fields will need to be markdown and parsed,
+// in a good project we'd define and validate these datatypes,
+// but we might not have time for that
+
 const Project = ({
   image,
   title,
