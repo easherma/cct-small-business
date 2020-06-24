@@ -10,7 +10,13 @@ const ProjectsData = () => {
         edges {
           node {
             id
-            image
+            image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             title
             primary_partner
             other_partners
@@ -26,7 +32,7 @@ const ProjectsData = () => {
     <div>
       {projectsData.allProjectsJson["edges"].map(({ node }) => (
         <Project
-          image={node.image}
+          image={node.image.childImageSharp.fluid}
           title={node.title}
           primaryPartner={node.primary_partner}
           otherPartners={node.other_partners}
