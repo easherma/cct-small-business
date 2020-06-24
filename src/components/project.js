@@ -13,6 +13,7 @@ const Project = ({
   otherPartners,
   description,
   additionalDescription,
+  contactName
   callToAction,
 }) => (
   <Card>
@@ -25,7 +26,7 @@ const Project = ({
       <Card.Text>
         <ReactMarkdown source={additionalDescription} />
       </Card.Text>
-      <Card.Text>{callToAction}</Card.Text>
+      <Card.Text>Email {contactName} at {callToAction}</Card.Text>
     </Card.Body>
   </Card>
 )
