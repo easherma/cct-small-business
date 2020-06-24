@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
-media_folder: static/assets
-public_folder: /assets
+media_folder: src/images
 collections:
   - name: projects
     extension: json
