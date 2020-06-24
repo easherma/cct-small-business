@@ -3,16 +3,20 @@ backend:
 media_folder: static/assets
 public_folder: /assets
 collections:
-    name: projects
+  - name: projects
     extension: json
     label: Projects
     folder: "src/content/projects"
     create: true
     fields:
-    - {label: Project image, name: image, widget: image}
-    - {label: Project Title, name: title, widget: string}
-    - {label: Primary Partner, name: primary-partner, widget: string}
-    - {label: Other Partners, name: other-partners, widget: string}
-    - {label: Description, name: description, widget: text}
-    - {label: Additional Description, name: additional-description, widget: markdown}
-    - {label: Call to action, name: call-to-action, widget: string}
+      - { label: Project image, name: image, widget: image }
+      - { label: Project Title, name: title, widget: string }
+      - { label: Primary Partner, name: primary-partner, widget: string }
+      - { label: Other Partners, name: other-partners, widget: string }
+      - { label: Description, name: description, widget: text }
+      - {
+          label: Additional Description,
+          name: additional-description,
+          widget: markdown,
+        }
+      - { label: Call to action, name: call-to-action, widget: string }
