@@ -7,7 +7,7 @@ import SectionHeader from "../components/section-header"
 import ourVision from "../images/our-vision.png"
 import explorePartnerships from "../images/explore-the-partnership-white.png"
 
-import ProjectsData from "../components/projectsQuery"
+import ProjectsData from "../components/projects"
 
 const IndexPage = () => (
   <Layout>
