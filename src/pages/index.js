@@ -15,8 +15,17 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <SectionHeader imageSource={ourVision} altText="Our Vision" />
-    <StoryBlock imageSource={barriers} altText="Barriers" description="Hellow word!" />
-    <StoryBlock imageSource={barriers} altText="Barriers" description="Hellow word!" imageAlign="right" />
+    <StoryBlock
+      imageSource={barriers}
+      altText="Barriers"
+      description="Hellow word!"
+    />
+    <StoryBlock
+      imageSource={barriers}
+      altText="Barriers"
+      description="Hellow word!"
+      imageRight
+    />
 
     <SectionHeader
       imageSource={explorePartnerships}
