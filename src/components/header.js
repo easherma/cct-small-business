@@ -1,35 +1,48 @@
-import { Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Image from "react-bootstrap/Image"
 import Container from "react-bootstrap/Container"
+import Img from "gatsby-image"
 
 import titleImage from "../content/images/title-homepage-eng.png"
 
-const Header = () => (
-  <header>
-    <Container>
-      <div>
-        <Image
-          src={titleImage}
-          alt="The Fund for Equitable Business Growth"
-          className="img-responsive"
-          fluid
-        />
-        <h1 className="lead">
-          Creating a marketplace of services for entrepreneurs of color to close
-          the racial wealth gap and build a more just, equitable and resilient
-          society.
-        </h1>
-        <p>
-          A collaboration between The Chicago Community Trust, The Coleman
-          Foundation, JPMorgan Chase Foundation, Robert R. McCormick Foundation,
-          Leslie Bluhm and David Helfand, Peter and Lucy Ascoli Family Fund, and
-          the Liz and Don Thompson Family Fund.
-        </p>
-      </div>
-    </Container>
-  </header>
-)
+const Header = () => {
+  const data = useStaticQuery(graphql`
+    {
+      file(absolutePath: { regex: "/site-header/" }) {
+        id
+        name
+        childContentJson {
+          id
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          description
+          additional_description
+        }
+      }
+    }
+  `)
+  return (
+    <header>
+      <Container>
+        <div>
+          <Img
+            fluid={data.file.childContentJson.image.childImageSharp.fluid}
+            className="img-responsive"
+            alt="The Fund for Equitable Business Growth"
+          />
+          <h1 className="lead">{data.file.childContentJson.description}</h1>
+          <p>{data.file.childContentJson.additional_description}</p>
+        </div>
+      </Container>
+    </header>
+  )
+}
 
 export default Header
