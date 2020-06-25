@@ -10,6 +10,9 @@ import ProjectsData from '../components/projects'
 import StoryBlock from '../components/story-block'
 
 const IndexPage = () => {
+  // this is where we import stuff to use in the page
+  // expect this to grow until we have all the content
+  // at some point we might refactor it, esp when we implement spanish
   const images = useStaticQuery(graphql`
     {
       vision: file(relativePath: { eq: "images/our-vision.png" }) {
