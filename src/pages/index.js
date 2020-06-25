@@ -1,16 +1,16 @@
-import React from "react"
-import { Link } from "gatsby"
-import SEO from "../components/seo"
-import Layout from "../components/layout"
-import SectionHeader from "../components/section-header"
+import React from 'react'
+import { Link } from 'gatsby'
+import SEO from '../components/seo'
+import Layout from '../components/layout'
+import SectionHeader from '../components/section-header'
 import FourColumnBlock from '../components/four-column-block'
 
-import ourVision from "../content/images/our-vision.png"
-import explorePartnerships from "../content/images/explore-the-partnership-white.png"
-import barriers from "../content/images/barriers.png"
+import ourVision from '../content/images/our-vision.png'
+import explorePartnerships from '../content/images/explore-the-partnership-white.png'
+import barriers from '../content/images/barriers.png'
 
-import ProjectsData from "../components/projects"
-import StoryBlock from "../components/story-block"
+import ProjectsData from '../components/projects'
+import StoryBlock from '../components/story-block'
 
 const IndexPage = () => (
   <Layout>
@@ -32,7 +32,7 @@ const IndexPage = () => (
       imageSource={explorePartnerships}
       altText="Explore The Partnerships"
     />
-      <FourColumnBlock />
+    <FourColumnBlock />
     <ProjectsData />
   </Layout>
 )
