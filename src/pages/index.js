@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import SectionHeader from "../components/section-header"
+import FourColumnBlock from '../components/four-column-block'
 
 import ourVision from "../content/images/our-vision.png"
 import explorePartnerships from "../content/images/explore-the-partnership-white.png"
@@ -17,6 +18,7 @@ const IndexPage = () => (
       imageSource={explorePartnerships}
       altText="Explore The Partnerships"
     />
+      <FourColumnBlock />
     <ProjectsData />
   </Layout>
 )
