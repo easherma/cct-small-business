@@ -33,6 +33,13 @@ const IndexPage = () => {
           }
         }
       }
+      barriers: file(relativePath: { eq: "images/barriers.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
@@ -48,12 +55,12 @@ const IndexPage = () => {
         altText="Explore The Partnerships"
       />
       <StoryBlock
-        imageSource={barriers}
+        imageSource={images.barriers.childImageSharp.fluid}
         altText="Barriers"
         description="Hellow word!"
       />
       <StoryBlock
-        imageSource={barriers}
+        imageSource={images.barriers.childImageSharp.fluid}
         altText="Barriers"
         description="Hellow word!"
         imageRight
