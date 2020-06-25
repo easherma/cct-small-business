@@ -1,12 +1,12 @@
 backend:
   name: git-gateway
-media_folder: static/assets
-public_folder: /assets
+media_folder: src/content/images
 collections:
   - name: projects
     extension: json
     label: Projects
     folder: "src/content/projects"
+    media_folder: "project-icons"
     create: true
     fields:
       - { label: Project image, name: image, widget: image }
@@ -19,4 +19,4 @@ collections:
           name: additional-description,
           widget: markdown,
         }
-      - { label: Call to action, name: call-to-action, widget: string }
+      - { label: Contact Call to Action, name: call-to-action, widget: string }
