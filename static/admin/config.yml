@@ -1,16 +1,20 @@
 backend:
   name: git-gateway
+
+# when using the default proxy server port
+local_backend: false
+
 media_folder: src/content/images
 collections:
   - name: projects
     extension: json
     label: Projects
     folder: 'src/content/projects'
-    media_folder: '../../../../project-icons'
+    media_folder: './project-icons'
     public_folder: 'project-icons'
     create: true
     fields:
-      - { label: Project image, name: image, widget: image }
+      - { label: Project image, name: image, widget: image, required: false }
       - {
           label: Project Title,
           hint: 'FoodLab Chicago',
