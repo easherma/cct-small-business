@@ -6,8 +6,10 @@ import SectionHeader from '../components/section-header'
 
 import FourColumnBlock from '../components/four-column-block'
 
-import ProjectsData from '../components/projects'
+import Projects from '../components/projects'
 import StoryBlock from '../components/story-block'
+import StoryBlocks from '../components/story-blocks'
+import OurVisionStoryBlocks from '../components/our-vision-story-blocks'
 
 const IndexPage = () => {
   // this is where we import stuff to use in the page
@@ -44,9 +46,11 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
+
       <SectionHeader
-        imageSource={images.vision.childImageSharp.fluid}
-        altText="Our Vision"
+        imageSource={images.partnerships.childImageSharp.fluid}
+        altText="Explore The Partnerships"
+
       />
       <StoryBlock
         imageSource={images.barriers.childImageSharp.fluid}
@@ -59,12 +63,20 @@ const IndexPage = () => {
         description="Hellow word!"
         imageRight
       />
+      <StoryBlocks />
+      <SectionHeader
+        imageSource={images.vision.childImageSharp.fluid}
+        altText="Our Vision"
+      />
+      <OurVisionStoryBlocks />
       <FourColumnBlock />
       <SectionHeader
         imageSource={images.partnerships.childImageSharp.fluid}
         altText="Explore The Partnerships"
       />
-      <ProjectsData />
+
+      <Projects />
+
     </Layout>
   )
 }
