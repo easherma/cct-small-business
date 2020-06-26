@@ -8,13 +8,30 @@
   border: none;
   background-color: #2cd0af;
 }
+.partners-card {
+  background-color: #2cd0af;
+  color: white;
+  text-align: left;
+}
 .partners-image {
   position: absolute;
   top: 0%;
   bottom: 66.44%;
 }
+.partners-title {
+    text-align: center;
+  }
+.partners-primary {
+  text-decoration: underline;
+}
 
-.partners-card {
-  background-color: #2cd0af;
-  color: white;
+.partners-description {
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  
+  color: #FFFFFF;
 }

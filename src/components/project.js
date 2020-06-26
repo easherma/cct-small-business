@@ -24,9 +24,9 @@ const Project = ({
         <Img fluid={image} alt="" className="partners-image" />
         <Card.Title className="partners-title">{title}</Card.Title>
         <Card.Body>
-          <Card.Text>{primaryPartner}</Card.Text>
-          <Card.Text>{otherPartners}</Card.Text>
-          <Card.Text>{description}</Card.Text>
+          <Card.Text className="partners-primary">{primaryPartner}</Card.Text>
+          <Card.Text className="partners-other">{otherPartners}</Card.Text>
+          <Card.Text className="partners-description">{description}</Card.Text>
           <Card.Text>
             <ReactMarkdown source={additionalDescription} />
           </Card.Text>
