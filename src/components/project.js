@@ -28,10 +28,10 @@ const Project = ({
           <Card.Text className="partners-other">{otherPartners}</Card.Text>
           <Card.Text className="partners-description">{description}</Card.Text>
           <Card.Text>
-            <ReactMarkdown source={additionalDescription} />
+            <ReactMarkdown className="partners-additional" source={additionalDescription} />
           </Card.Text>
           <Card.Text>
-            <Linkify>{callToAction}</Linkify>
+            <Linkify className="partners-action">{callToAction}</Linkify>
           </Card.Text>
         </Card.Body>
       </Card>
