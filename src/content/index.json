@@ -1,16 +1,17 @@
 {
   "stories": [
     {
-      "position": "psum dolor sit amet, conse",
+      "full-text": "",
       "imageRight": true,
       "image": "images/arrow-2.png",
       "description": "psum dolor sit amet, conse"
     },
     {
-      "position": "psum dolor sit amet, consepsum dolor sit amet, conse",
+      "full-text": "psum dolor sit amet, consepsum dolor sit amet, conse",
       "imageRight": false,
       "description": "psum dolor sit amet, consepsum dolor sit amet, conse",
-      "image": "images/arrow-1.png"
+      "image": "images/arrow-1.png",
+      "alt-text": "a light bulb"
     }
   ],
   "projects": [
@@ -53,5 +54,13 @@
   ],
   "site-title-image": "images/title-homepage-eng.png",
   "site-description": "Creating a marketplace of services for entrepreneurs of color to close the racial wealth gap and build a more just, equitable and resilient society.",
-  "site-additional-description": "A collaboration between The Chicago Community Trust, The Coleman Foundation, JPMorgan Chase Foundation, Robert R.McCormick Foundation, Leslie Bluhm and David Helfand, Peter and Lucy Ascoli Family Fund, and the Liz and Don Thompson Family Fund."
+  "site-additional-description": "A collaboration between The Chicago Community Trust, The Coleman Foundation, JPMorgan Chase Foundation, Robert R.McCormick Foundation, Leslie Bluhm and David Helfand, Peter and Lucy Ascoli Family Fund, and the Liz and Don Thompson Family Fund.",
+  "expanded-stories": [
+    {
+      "description": " ",
+      "full-text": "psum dolor sit amet, consepsum dolor sit amet, conse\n\n**Description:**",
+      "image": "images/explore-the-partnership-white.png",
+      "alt-text": "explore"
+    }
+  ]
 }

@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Card from 'react-bootstrap/Card'
 import Project from './project'
 
-const ProjectsData = () => {
+const Projects = () => {
   const projectsQuery = useStaticQuery(graphql`
     {
       contentJson {
@@ -43,4 +43,4 @@ const ProjectsData = () => {
   )
 }
 
-export default ProjectsData
+export default Projects

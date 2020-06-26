@@ -25,25 +25,43 @@ collections:
             name: stories
             widget: list
             fields:
-              - { label: Description, name: description, widget: string }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: string,
+                  default: " ",
+                }
               - { label: Image, name: image, widget: image }
               - {
                   label: Full Text Description,
-                  name: position,
+                  name: full-text,
                   hint: "Use this field for the larger blocks that need formatted text",
                   widget: markdown,
                   default: "",
                   required: false,
                 }
           - label: Our Vision Story Blocks
-            name: stories
+            name: expanded-stories
             widget: list
             fields:
-              - { label: Description, name: description, widget: string }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: string,
+                  default: " ",
+                }
               - { label: Image, name: image, widget: image }
               - {
+                  label: Image Alt Text,
+                  hint: "an accessible description of the image for when the image dosen't show or someone is using a screen reader",
+                  name: alt-text,
+                  widget: string,
+                  default: "illustration of the content",
+                }
+
+              - {
                   label: Full Text Description,
-                  name: position,
+                  name: full-text,
                   hint: "Use this field for the larger blocks that need formatted text",
                   widget: markdown,
                   default: "",
