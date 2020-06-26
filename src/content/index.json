@@ -1,10 +1,4 @@
 {
-  "projects": [
-    "Testing this project",
-    "Where did this save"
-  ],
-  "title": "psum dolor sit amet, conse",
-  "intro": "psum dolor sit amet, consepsum dolor sit amet, consepsum dolor sit amet, consepsum dolor sit amet, consepsum dolor sit amet, consepsum dolor sit amet, consepsum dolor sit amet, conse",
   "stories": [
     {
       "position": "psum dolor sit amet, conse",
@@ -18,5 +12,46 @@
       "description": "psum dolor sit amet, consepsum dolor sit amet, conse",
       "photo": "/src/content/images/arrow-1.png"
     }
-  ]
+  ],
+  "myprojects": [
+    {
+      "image": "/src/content/images/title.png",
+      "title": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
+      "primary-partner": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
+      "other-partners": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
+      "description": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
+      "additional-description": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
+      "call-to-action": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!"
+    },
+    {
+      "image": "project-icons/stat.jpg",
+      "title": "media_folder: src/content/images",
+      "primary-partner": "media_folder: src/content/images",
+      "other-partners": "media_folder: src/content/images",
+      "description": "media_folder: src/content/images",
+      "additional-description": "media_folder: src/content/images",
+      "call-to-action": "media_folder: src/content/images"
+    },
+    {
+      "image": "project-icons/light-bulb.png",
+      "title": "Where did this save",
+      "primary-partner": "Where did this save",
+      "other-partners": "Where did this save",
+      "description": "Where did this save",
+      "additional-description": "Where did this save",
+      "call-to-action": "Where did this save"
+    },
+    {
+      "title": "Testing this project",
+      "image": "project-icons/basic-financials-for-business.png",
+      "primary-partner": "a partner",
+      "other-partners": "a partner,a partner,a partner,a partner",
+      "description": "We did so many cool things!",
+      "additional-description": "Look at this text box with markdown that we turn to HTML!\n\n**We did so many cool things!**\n\n**Read [this](https://www.gatsbyjs.org/docs/sourcing-content-from-json-or-yaml/)**",
+      "call-to-action": "Email Eric at ericandrewsherman@gmail.com"
+    }
+  ],
+  "site-title-image": "images/title-homepage-eng.png",
+  "site-description": "Creating a marketplace of services for entrepreneurs of color to close the racial wealth gap and build a more just, equitable and resilient society.",
+  "site-additional-description": "A collaboration between The Chicago Community Trust, The Coleman Foundation, JPMorgan Chase Foundation, Robert R.McCormick Foundation, Leslie Bluhm and David Helfand, Peter and Lucy Ascoli Family Fund, and the Liz and Don Thompson Family Fund."
 }
