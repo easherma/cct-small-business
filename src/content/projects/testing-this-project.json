@@ -1,9 +1,9 @@
 {
-  "title": "Testing this project",
-  "image": "project-icons/basic-financials-for-business.png",
-  "primary-partner": "a partner",
-  "other-partners": "a partner,a partner,a partner,a partner",
-  "description": "We did so many cool things!",
-  "additional-description": "Look at this text box with markdown that we turn to HTML!\n\n**We did so many cool things!**\n\n**Read [this](https://www.gatsbyjs.org/docs/sourcing-content-from-json-or-yaml/)**",
-  "call-to-action": "Email Eric at ericandrewsherman@gmail.com"
+  "image": "project-icons/xquina-incubator.png",
+  "title": "Xquina Incubator",
+  "primary-partner": "Little Village Community Foundation",
+  "other-partners": "In partnership with Illinois Hispanic Chamber of Commerce, State of Illinois Procurement Technical Assistance Center and FourStar Branding, as well as local universities.",
+  "description": "Creating an open, accessible and inclusive learning environment that provides bilingual, adaptable training and coaching for current and emerging businesses, working-class residents, media professionals and local",
+  "additional-description": "The Little Village Community Foundation and its core partners are providing technical business support, branding, entrepreneurial training and a bilingual, immigrant-focused, cohort-based program.",
+  "call-to-action": "For more information about the Xquina Incubator, contact Kim Close at kim@littlevillagechamber.org."
 }

@@ -1,3 +1,13 @@
 .card {
   border: none;
 }
+
+.partners {
+  text-align: left;
+  width: 1000px;
+  background-color: red;
+  border: none;
+}
+.partners-image {
+  align-content: center;
+}

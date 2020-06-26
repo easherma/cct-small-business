@@ -18,10 +18,10 @@ const Project = ({
   additionalDescription,
   callToAction,
 }) => (
-    <Container>
+    <Container className="partners">
       <Card>
-        <Card.Img variant="top" src={image} />
-        <Card.Title>{title}</Card.Title>
+        <Card.Img variant="top" src={image} className="partners-image" />
+        <Card.Title className="partners-title">{title}</Card.Title>
         <Card.Body>
           <Card.Text>{primaryPartner}</Card.Text>
           <Card.Text>{otherPartners}</Card.Text>
