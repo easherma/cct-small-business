@@ -1,0 +1,22 @@
+{
+  "projects": [
+    "Testing this project",
+    "Where did this save"
+  ],
+  "title": "psum dolor sit amet, conse",
+  "intro": "psum dolor sit amet, consepsum dolor sit amet, consepsum dolor sit amet, consepsum dolor sit amet, consepsum dolor sit amet, consepsum dolor sit amet, consepsum dolor sit amet, conse",
+  "stories": [
+    {
+      "position": "psum dolor sit amet, conse",
+      "imageRight": true,
+      "photo": "/src/content/images/arrow-2.png",
+      "description": "psum dolor sit amet, conse"
+    },
+    {
+      "position": "psum dolor sit amet, consepsum dolor sit amet, conse",
+      "imageRight": false,
+      "description": "psum dolor sit amet, consepsum dolor sit amet, conse",
+      "photo": "/src/content/images/arrow-1.png"
+    }
+  ]
+}
