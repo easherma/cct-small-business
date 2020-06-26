@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card"
 import ReactMarkdown from "react-markdown"
 import Linkify from "react-linkify"
 import Container from "react-bootstrap/Container"
+import Img from "gatsby-image"
 
 // some of our fields will need to be markdown and parsed,
 // in a good project we'd define and validate these datatypes,
@@ -20,7 +21,7 @@ const Project = ({
 }) => (
     <Container className="partners">
       <Card className="partners-card">
-        <Card.Img variant="top" src={image} className="partners-image" />
+        <Img fluid={image} alt="" className="partners-image" />
         <Card.Title className="partners-title">{title}</Card.Title>
         <Card.Body>
           <Card.Text>{primaryPartner}</Card.Text>

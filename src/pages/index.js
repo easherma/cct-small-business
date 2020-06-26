@@ -48,10 +48,6 @@ const IndexPage = () => {
         imageSource={images.vision.childImageSharp.fluid}
         altText="Our Vision"
       />
-      <SectionHeader
-        imageSource={images.partnerships.childImageSharp.fluid}
-        altText="Explore The Partnerships"
-      />
       <StoryBlock
         imageSource={images.barriers.childImageSharp.fluid}
         altText="Barriers"
@@ -64,6 +60,10 @@ const IndexPage = () => {
         imageRight
       />
       <FourColumnBlock />
+      <SectionHeader
+        imageSource={images.partnerships.childImageSharp.fluid}
+        altText="Explore The Partnerships"
+      />
       <ProjectsData />
     </Layout>
   )
