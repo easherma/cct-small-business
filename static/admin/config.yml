@@ -2,7 +2,7 @@ backend:
   name: git-gateway
 
 # when using the default proxy server port
-local_backend: true
+local_backend: false
 media_folder: src/content/
 collections:
   - label: "Pages"
@@ -74,6 +74,25 @@ collections:
               #     widget: "boolean",
               #     default: false,
               #   }
+          - label: Four Column Block
+            name: four-column-block
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Image1, name: image1, widget: image }
+              - { label: Image2, name: image2, widget: image }
+              - { label: Image3, name: image3, widget: image }
+              - { label: Image4, name: image4, widget: image }
+              - { label: Description1, name: description1, widget: string }
+              - { label: Description2, name: description2, widget: string }
+              - { label: Description3, name: description3, widget: string }
+              - { label: Description4, name: description4, widget: string }
+              - {
+                  label: Contact Call to Action,
+                  hint: "e.g.: For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org.",
+                  name: call-to-action,
+                  widget: string,
+                }
           - label: Projects
             name: projects
             folder: "src/content/projects"

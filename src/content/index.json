@@ -62,5 +62,17 @@
       "image": "images/explore-the-partnership-white.png",
       "alt-text": "explore"
     }
-  ]
+  ],
+  "four-column-block": {
+    "title": "blah blah",
+    "image1": "images/arrow1.png",
+    "image2": "images/arrow2.png",
+    "image3": "images/arrow3.png",
+    "image4": "images/arrow4.png",
+    "description1": "blah blah",
+    "description2": "blah blah",
+    "description3": "blah blah",
+    "description4": "blah blah",
+    "call-to-action": "blah blah"
+  }
 }
