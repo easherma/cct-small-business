@@ -1,0 +1,11 @@
+{
+  "title": "test",
+  "intro": "test",
+  "team": [
+    {
+      "name": "test",
+      "position": "test",
+      "photo": "/src/content/images/arrow-1.png"
+    }
+  ]
+}
