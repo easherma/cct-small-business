@@ -10,7 +10,7 @@ import arrow3 from '../images/arrow3.png'
 import arrow4 from '../images/arrow4.png'
 
 const FourColumnBlock = () => (
-  <Container>
+  <Container className="fourColumn">
     <p className="lead text-center font-weight-bold">
       As a result of this program, we anticipate an increase in:
     </p>

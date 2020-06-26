@@ -4,10 +4,15 @@
 
 .partners {
   text-align: left;
-  width: 1000px;
-  background-color: red;
+  width: 1100px;
   border: none;
+  background-color: #2cd0af;
 }
-.partners-image {
-  align-content: center;
+/* .partners-image {
+
+} */
+
+.partners-card {
+  background-color: #2cd0af;
+  color: white;
 }
