@@ -26,7 +26,21 @@ collections:
             widget: list
             fields:
               - { label: Description, name: description, widget: string }
-              - { label: Photo, name: photo, widget: image }
+              - { label: Image, name: image, widget: image }
+              - {
+                  label: Full Text Description,
+                  name: position,
+                  hint: "Use this field for the larger blocks that need formatted text",
+                  widget: markdown,
+                  default: "",
+                  required: false,
+                }
+          - label: Our Vision Story Blocks
+            name: stories
+            widget: list
+            fields:
+              - { label: Description, name: description, widget: string }
+              - { label: Image, name: image, widget: image }
               - {
                   label: Full Text Description,
                   name: position,
@@ -43,7 +57,7 @@ collections:
               #     default: false,
               #   }
           - label: Projects
-            name: myprojects
+            name: projects
             folder: "src/content/projects"
             media_folder: "projects/project-icons"
             public_folder: "project-icons"

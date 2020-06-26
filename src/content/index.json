@@ -3,19 +3,19 @@
     {
       "position": "psum dolor sit amet, conse",
       "imageRight": true,
-      "photo": "/src/content/images/arrow-2.png",
+      "image": "images/arrow-2.png",
       "description": "psum dolor sit amet, conse"
     },
     {
       "position": "psum dolor sit amet, consepsum dolor sit amet, conse",
       "imageRight": false,
       "description": "psum dolor sit amet, consepsum dolor sit amet, conse",
-      "photo": "/src/content/images/arrow-1.png"
+      "image": "images/arrow-1.png"
     }
   ],
-  "myprojects": [
+  "projects": [
     {
-      "image": "/src/content/images/title.png",
+      "image": "project-icons/light-bulb.png",
       "title": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
       "primary-partner": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
       "other-partners": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
@@ -24,7 +24,7 @@
       "call-to-action": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!"
     },
     {
-      "image": "project-icons/stat.jpg",
+      "image": "project-icons/light-bulb.png",
       "title": "media_folder: src/content/images",
       "primary-partner": "media_folder: src/content/images",
       "other-partners": "media_folder: src/content/images",

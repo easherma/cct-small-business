@@ -1,36 +1,34 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Card from "react-bootstrap/Card"
-import Project from "./project"
+import React from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
+import Card from 'react-bootstrap/Card'
+import Project from './project'
 
 const ProjectsData = () => {
-  const projectsData = useStaticQuery(graphql`
+  const projectsQuery = useStaticQuery(graphql`
     {
-      allProjectsJson {
-        edges {
-          node {
-            id
-            image {
-              childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                }
+      contentJson {
+        projects {
+          title
+          primary_partner
+          other_partners
+          description
+          additional_description
+          call_to_action
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
               }
             }
-            title
-            primary_partner
-            other_partners
-            description
-            additional_description
-            call_to_action
           }
         }
       }
     }
   `)
+  const projectsData = projectsQuery.contentJson.projects
   return (
     <div>
-      {projectsData.allProjectsJson["edges"].map(({ node }) => (
+      {projectsData.map(node => (
         <Project
           image={node.image.childImageSharp.fluid}
           title={node.title}
