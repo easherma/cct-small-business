@@ -19,7 +19,7 @@ const Project = ({
   callToAction,
 }) => (
     <Container className="partners">
-      <Card>
+      <Card className="partners-card">
         <Card.Img variant="top" src={image} className="partners-image" />
         <Card.Title className="partners-title">{title}</Card.Title>
         <Card.Body>
