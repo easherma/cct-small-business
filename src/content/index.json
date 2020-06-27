@@ -17,44 +17,80 @@
   "projects": [
     {
       "image": "project-icons/light-bulb.png",
-      "title": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
-      "primary-partner": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
-      "other-partners": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
-      "description": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
-      "additional-description": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!",
-      "call-to-action": "see you got that dopamine cycle, its frustrating when things don't work, but then once it does work its a rush!"
+      "title": "Xquina Incubator",
+      "primary-partner": "Project led by Little Village Community Foundation",
+      "other-partners": "In partnership with Illinois Hispanic Chamber of Commerce, State of Illinois Procurement Technical Assistance Center and FourStar Branding, as well as local universities.",
+      "description": "Creating an open, accessible and inclusive learning environment that provides bilingual, adaptable training and coaching for current and emerging businesses, working-class residents, media professionals and local youth. ",
+      "additional-description": "The Little Village Community Foundation and its core partners are providing technical business support, branding, entrepreneurial training and a bilingual, immigrant-focused, cohort-based program.",
+      "call-to-action": "For more information about the Xquina Incubator, contact Kim Close at kim@littlevillagechamber.org."
     },
     {
       "image": "project-icons/light-bulb.png",
-      "title": "media_folder: src/content/images",
-      "primary-partner": "media_folder: src/content/images",
-      "other-partners": "media_folder: src/content/images",
-      "description": "media_folder: src/content/images",
-      "additional-description": "media_folder: src/content/images",
-      "call-to-action": "media_folder: src/content/images"
+      "title": "Belmont Cragin Business Collaborative (BCBC)",
+      "primary-partner": "Project led by Northwest Side Housing Center",
+      "other-partners": "In partnership with the Women’s Business Development Center, Chicago Police Department (25th), CIBC Bank, Local Initiatives Support Corporation Chicago and Associated Bank.",
+      "description": "Providing personalized business capacity building and access to new, flexible and patient capital in the Belmont Cragin neighborhood.   ",
+      "additional-description": "This partnership is working to promote safe, beautiful streets along the commercial corridor in the Belmont Cragin neighborhood.",
+      "call-to-action": "For more information about the Belmont Cragin Business Collaborative, contact Jason Estremera at Jestremera@northwestsidecdc.org."
     },
     {
       "image": "project-icons/light-bulb.png",
-      "title": "Where did this save",
-      "primary-partner": "Where did this save",
-      "other-partners": "Where did this save",
-      "description": "Where did this save",
-      "additional-description": "Where did this save",
-      "call-to-action": "Where did this save"
+      "title": "Empresarias del Futuro",
+      "primary-partner": "Project led by Mujeres Latinas En Acción",
+      "other-partners": "In partnership with the Brighton Park Neighborhood Council.",
+      "description": "Offering an adult-learning entrepreneurship model that services low and moderate-income women, particularly Spanish-speaking and immigrant women.",
+      "additional-description": "In recognition of a growing market in Brighton Park, from its headquarters in Pilsen, Latin Women in Action is partnering with the Brighton Park Neighborhood Council to expand its successful Empresarias del Futuro entrepreneur program. A long-standing and trusted community organizing group, coalition leader and service provider, Brighton Park Neighborhood Council plays an important role in referrals and relationship building with the community.",
+      "call-to-action": "For more information about Empresarias del Futuro, contact Fanny Cano  at fcano@mujereslat.org."
     },
     {
-      "title": "Testing this project",
+      "title": "Basic Financials for Business",
       "image": "project-icons/basic-financials-for-business.png",
-      "primary-partner": "a partner",
-      "other-partners": "a partner,a partner,a partner,a partner",
-      "description": "We did so many cool things!",
-      "additional-description": "Look at this text box with markdown that we turn to HTML!\n\n**We did so many cool things!**\n\n**Read [this](https://www.gatsbyjs.org/docs/sourcing-content-from-json-or-yaml/)**",
-      "call-to-action": "Email Eric at ericandrewsherman@gmail.com"
+      "primary-partner": "Project led by Greater Southwest Development Corporation",
+      "other-partners": "In partnership with Greater Englewood Chamber of Commerce, Emerald South Economic Development Collaborative and Rogers Park Business Alliance.",
+      "description": "Training and connecting businesses of color and of dual language to each other and a collective array of resources, with a focus on increasing access to capital. \n",
+      "additional-description": "This partnership is expanding its business financial readiness curriculum to additional neighborhoods and increasing the number of entrepreneurs successfully obtaining financing. It is also establishing an alumni network that will gather three times over the course of the year to connect and collaborate.",
+      "call-to-action": "For more information about Basic Financials for Business, contact Erika Gonzalez at e.gonzalez@greatersouthwest.org."
+    },
+    {
+      "image": "project-icons/light-bulb.png",
+      "title": "Financial Literacy Dashboard for Small Business Project",
+      "primary-partner": "Project led by New Development Corporation",
+      "other-partners": "In partnership with New Covenant CDC, Sunshine Enterprises and the North Lawndale Chamber.",
+      "description": "Working together to provide specific training in the area of financial management for small and micro-businesses.",
+      "additional-description": "These partners, who have a strong working relationship, work with entrepreneurs to start or grow businesses. They strive to serve 75-100 entrepreneurs by increasing from three to five cohorts and expanding to serve both the South and West sides of Chicago.",
+      "call-to-action": "For more information about Financial Literacy Dashboard for Small Business Project, contact Rodney Brown at rodney@new-covenantcdc.org."
+    },
+    {
+      "image": "project-icons/light-bulb.png",
+      "title": "FoodLab Chicago",
+      "primary-partner": "Project led by Greater Chatham Initiative",
+      "other-partners": "In partnership with FoodLab Detroit, Association for Enterprise Opportunity and South Shore Chamber of Commerce.",
+      "description": "Providing integrated services to mature food businesses owned by people of color in the South Shore and Chatham communities by addressing acute barriers that hamper their growth.",
+      "additional-description": "FoodLab Detroit has created an effective model for developing cohorts of industry-specialized food entrepreneurs to provide not only technical support but also strong network ties between food businesses of color facing similar growth opportunities and challenges. Through this work, the partnership will establish a new FoodLab Chicago to provide in-person technical assistance to the 25 food businesses that are the nucleus of Restaurant Row and 71st Street.",
+      "call-to-action": "For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org."
+    },
+    {
+      "image": "project-icons/light-bulb.png",
+      "title": "Light Bulb",
+      "primary-partner": "Project led by Elevate Energy",
+      "other-partners": "In partnership with Sustainable Options for Urban Living (SOUL) and Business Services Collective.",
+      "description": "Reducing barriers for minority contractors through shared back office services. ",
+      "additional-description": "This partnership is launching a pilot to provide operational capacity and back office services for solar construction businesses owned by people of color. The project focuses on businesses that have been receiving technical training from Elevate Energy and SOUL on energy efficiency and solar installations and will start initially with helping these companies set up the systems they need to bid for contracts. The ultimate goal is to build out a suite of back office business services.",
+      "call-to-action": "For more information about Light Bulb, contact Jeanine Otte at Jeanine.Otte@elevateenergy.org."
+    },
+    {
+      "image": "project-icons/light-bulb.png",
+      "title": "Southeast Chicago Cooperative Businesses Partnership",
+      "primary-partner": "Project led by Centro de Trabajadores Unidos Immigrant Workers Project",
+      "other-partners": "In partnership with United Workers’ Center (CTU), Adelante Center for Entrepreneurship, John Marshall Law School and Chicago Food Policy Action Council.",
+      "description": "Offering a new 12-week business bootcamp on the Southeast Side of Chicago and South Suburbs that will provide comprehensive business development services for low-income, immigrant and Latinx-owned worker cooperatives. ",
+      "additional-description": "The Partnership aims to increase the number of immigrant and Latinx cooperative firms on the Southeast Side of Chicago and South Suburbs to address the unique needs, vulnerabilities and aspirations of low-income Latinx workers and support them in creating collective worker-run enterprises.",
+      "call-to-action": "For more information about Southeast Chicago Cooperative Business Partnership, contact Ava Tomasula Garcia at agarcia@ctu-iwp.org."
     }
   ],
   "site-title-image": "images/title-homepage-eng.png",
-  "site-description": "Creating a marketplace of services for entrepreneurs of color to close the racial wealth gap and build a more just, equitable and resilient society.",
-  "site-additional-description": "A collaboration between The Chicago Community Trust, The Coleman Foundation, JPMorgan Chase Foundation, Robert R.McCormick Foundation, Leslie Bluhm and David Helfand, Peter and Lucy Ascoli Family Fund, and the Liz and Don Thompson Family Fund.",
+  "site-description": "Creating a marketplace of services for entrepreneurs of color in the Chicago region to close the racial and ethnic wealth gap and build a more just, equitable and resilient society.",
+  "site-additional-description": "A collaboration between The Chicago Community Trust,  The Coleman Foundation, JPMorgan Chase Foundation, Robert R. McCormick Foundation, Leslie Bluhm and David Helfand, Peter and Lucy Ascoli Family Fund, and the Liz and Don Thompson Family Fund.",
   "expanded-stories": [
     {
       "description": " ",
@@ -64,15 +100,15 @@
     }
   ],
   "four-column-block": {
-    "title": "blah blah",
-    "image1": "images/arrow1.png",
-    "image2": "images/arrow2.png",
-    "image3": "images/arrow3.png",
-    "image4": "images/arrow4.png",
     "description1": "blah blah",
+    "image1": "images/arrow1.png",
     "description2": "blah blah",
+    "image2": "images/arrow2.png",
     "description3": "blah blah",
+    "image3": "images/arrow3.png",
+    "title": "blah blah",
     "description4": "blah blah",
-    "call-to-action": "blah blah"
+    "call-to-action": "blah blah",
+    "image4": "images/arrow4.png"
   }
 }
