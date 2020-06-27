@@ -145,26 +145,26 @@
   "expanded-stories": [
     {
       "description": " How can we address these systemic inequities? ",
-      "full-text": "In 2018, Next Street conducted research on Chicago’s small business landscape that revealed the following needs of businesses owned by women and people of color:\n\n* Improved business service delivery\n* Enhanced service options\n* Coordination among business service providers\n* Expanded access to business networks and capital\n\nWe believe **effective partnerships** between business support organizations are central to addressing these needs. The fund’s vision is to shape an equitable and coordinated marketplace of services for Entrepreneurs of Color throughout Chicago.",
+      "full-text": "In 2018, Next Street conducted research on Chicago’s small business landscape that revealed the following needs of businesses owned by women and people of color:\n\n* Improved business service delivery\n* Enhanced service options\n* Coordination among business service providers\n* Expanded access to business networks and capital\n\nWe believe **effective partnerships** between business support organizations are central to addressing these needs. The fund’s vision is to shape an equitable and coordinated marketplace of services for entrepreneurs of color throughout Chicago.",
       "image": "images/notepad.png",
       "alt-text": "An image of a notepad with a business development plan, a piggy bank with the word \"financing\", and direction errors with the words \"technical assistance\""
     },
     {
-      "description": " We awarded grants to 12 partnerships to expand their offerings to small businesses on the South and West sides. These grant recipients will work together in a learning cohort model to begin to transform the small business ecosystem in Chicago. ",
+      "description": " We awarded grants to 12 partnerships to expand their offerings to small businesses on the South and West sides. These grant recipients will work together in a learning cohort to begin to transform the small business ecosystem in Chicago. ",
       "alt-text": "illustration of the content",
-      "full-text": "The partnerships in the fund can be summed up in 4 types:\n\n**New Business Models:** Partnerships innovating and replicating new business models.\n\n**New Markets:** Partnerships that are cultivating growth in new business markets.\n\n**Curriculum Expansion:** Partnerships that are expanding business education into new locations with local partners.\n\n**Place-Based:** Partnerships that are aimed at hyper-local business development.",
+      "full-text": "The partnerships in the fund provide 4 types of support:\n\n**New Business Models:**  Innovating and creating new business models.\n\n**New Markets:**  Cultivating growth in new business markets.\n\n**Curriculum Expansion:** Expanding business education into new locations with local partners.\n\n**Place-Based:** Developing businesses at the hyper-local level.",
       "image": "images/map-2.png"
     }
   ],
   "four-column-block": {
-    "description1": "the number of small businesses assisted throughout Chicago.",
+    "description1": "the number of small businesses assisted throughout Chicago",
     "image1": "images/arrow1.png",
-    "description2": "the number of entrepreneurs that start-up viable businesses.",
+    "description2": "the number of entrepreneurs that start-up viable businesses",
     "image2": "images/arrow2.png",
-    "description3": "the number of quality jobs created and retained within the communities served.",
+    "description3": "the number of quality jobs created and retained within the communities served",
     "image3": "images/arrow3.png",
     "title": "As a result of this program, we anticipate an increase in:  ",
-    "description4": "access for entrepreneurs of color to a trusted network of local small business professionals and community groups.",
+    "description4": "the access entrepreneurs have to a trusted network of local small business professionals and community groups",
     "call-to-action": "We invite you to join us in supporting this effort. To learn how to do so, contact Shandra Richardson, Program Manager, The Chicago Community Trust, at srichardson@cct.org.",
     "image4": "images/arrow4.png"
   }
