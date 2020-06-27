@@ -4,14 +4,29 @@
       "full-text": "",
       "imageRight": true,
       "image": "images/arrow-2.png",
-      "description": "psum dolor sit amet, conse"
+      "description": "Chicago’s small businesses drive economic empowerment — providing 58% of all jobs in the city and 70% of the jobs in underinvested neighborhoods. "
     },
     {
-      "full-text": "psum dolor sit amet, consepsum dolor sit amet, conse",
+      "full-text": "",
       "imageRight": false,
-      "description": "psum dolor sit amet, consepsum dolor sit amet, conse",
-      "image": "images/arrow-1.png",
+      "description": "Despite their vision, tenacity and commitment, entrepreneurs of color face significant barriers to success. ",
+      "image": "images/barriers.png",
       "alt-text": "a light bulb"
+    },
+    {
+      "description": " Black and Latinx-owned businesses comprise just 8% of the total number of small businesses combined.",
+      "full-text": "",
+      "image": "images/arrow-2.png"
+    },
+    {
+      "description": " The average White-owned business is valued at more than 12x the value of the average Black-owned business.",
+      "full-text": "",
+      "image": "images/arrow1.png"
+    },
+    {
+      "description": " Small businesses in Englewood (94% Black) are operating with less than a week of cash reserves in their deposit accounts, compared to 17 days for small businesses in Buena Park (Uptown, 54% White)—three times the cash liquidity.",
+      "full-text": "",
+      "image": "images/buena-park-and-englewood.png"
     }
   ],
   "projects": [
@@ -129,22 +144,28 @@
   "site-additional-description": "A collaboration between The Chicago Community Trust,  The Coleman Foundation, JPMorgan Chase Foundation, Robert R. McCormick Foundation, Leslie Bluhm and David Helfand, Peter and Lucy Ascoli Family Fund, and the Liz and Don Thompson Family Fund.",
   "expanded-stories": [
     {
-      "description": " ",
-      "full-text": "psum dolor sit amet, consepsum dolor sit amet, conse\n\n**Description:**",
-      "image": "images/explore-the-partnership-white.png",
-      "alt-text": "explore"
+      "description": " How can we address these systemic inequities? ",
+      "full-text": "In 2018, Next Street conducted research on Chicago’s small business landscape that revealed the following needs of businesses owned by women and people of color:\n\n* Improved business service delivery\n* Enhanced service options\n* Coordination among business service providers\n* Expanded access to business networks and capital\n\nWe believe **effective partnerships** between business support organizations are central to addressing these needs. The fund’s vision is to shape an equitable and coordinated marketplace of services for Entrepreneurs of Color throughout Chicago.",
+      "image": "images/notepad.png",
+      "alt-text": "An image of a notepad with a business development plan, a piggy bank with the word \"financing\", and direction errors with the words \"technical assistance\""
+    },
+    {
+      "description": " We awarded grants to 12 partnerships to expand their offerings to small businesses on the South and West sides. These grant recipients will work together in a learning cohort model to begin to transform the small business ecosystem in Chicago. ",
+      "alt-text": "illustration of the content",
+      "full-text": "The partnerships in the fund can be summed up in 4 types:\n\n**New Business Models:** Partnerships innovating and replicating new business models.\n\n**New Markets:** Partnerships that are cultivating growth in new business markets.\n\n**Curriculum Expansion:** Partnerships that are expanding business education into new locations with local partners.\n\n**Place-Based:** Partnerships that are aimed at hyper-local business development.",
+      "image": "images/map-2.png"
     }
   ],
   "four-column-block": {
-    "description1": "blah blah",
+    "description1": "the number of small businesses assisted throughout Chicago.",
     "image1": "images/arrow1.png",
-    "description2": "blah blah",
+    "description2": "the number of entrepreneurs that start-up viable businesses.",
     "image2": "images/arrow2.png",
-    "description3": "blah blah",
+    "description3": "the number of quality jobs created and retained within the communities served.",
     "image3": "images/arrow3.png",
-    "title": "blah blah",
-    "description4": "blah blah",
-    "call-to-action": "blah blah",
+    "title": "As a result of this program, we anticipate an increase in:  ",
+    "description4": "access for entrepreneurs of color to a trusted network of local small business professionals and community groups.",
+    "call-to-action": "We invite you to join us in supporting this effort. To learn how to do so, contact Shandra Richardson, Program Manager, The Chicago Community Trust, at srichardson@cct.org.",
     "image4": "images/arrow4.png"
   }
 }
