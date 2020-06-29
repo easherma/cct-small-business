@@ -12,9 +12,7 @@ import StoryBlocks from '../components/story-blocks'
 import OurVisionStoryBlocks from '../components/our-vision-story-blocks'
 
 const IndexPage = () => {
-  // this is where we import stuff to use in the page
-  // expect this to grow until we have all the content
-  // at some point we might refactor it, esp when we implement spanish
+  // just the images for section headers need to be here
   const images = useStaticQuery(graphql`
     {
       smallBusinessesOfColor: file(
