@@ -59,10 +59,12 @@ const IndexPage = () => {
       />
       <OurVisionStoryBlocks />
       <FourColumnBlock />
-      <SectionHeader
-        imageSource={images.partnerships.childImageSharp.fluid}
-        altText="Explore The Partnerships"
-      />
+      <div className="partners-section-header">
+        <SectionHeader
+          imageSource={images.partnerships.childImageSharp.fluid}
+          altText="Explore The Partnerships"
+        />
+      </div>
       <Projects />
     </Layout>
   )
