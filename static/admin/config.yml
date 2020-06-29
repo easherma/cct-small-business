@@ -96,7 +96,7 @@ collections:
           - label: Projects
             name: projects
             folder: "src/content/projects"
-            media_folder: "projects/project-icons"
+            media_folder: "project-icons"
             public_folder: "project-icons"
             widget: list
             fields:
@@ -143,48 +143,3 @@ collections:
                   name: call-to-action,
                   widget: string,
                 }
-  - name: projects
-    extension: json
-    label: Projects
-    folder: "src/content/projects"
-    media_folder: "/project-icons"
-    public_folder: "project-icons"
-    create: true
-    fields:
-      - { label: Project image, name: image, widget: image, required: false }
-      - {
-          label: Project Title,
-          hint: "FoodLab Chicago",
-          name: title,
-          widget: string,
-        }
-      - {
-          label: Primary Partner,
-          hint: "Greater Chatham Initiative",
-          name: primary-partner,
-          widget: string,
-        }
-      - {
-          label: Other Partners,
-          hint: "In partnership with FoodLab Detroit, Association for Enterprise Opportunity and South Shore Chamber of Commerce.",
-          name: other-partners,
-          widget: string,
-        }
-      - {
-          label: Description,
-          hint: "Providing integrated services to mature food businesses owned by people of color in the South Shore and Chatham communities by addressing acute barriers that hamper their growth.",
-          name: description,
-          widget: text,
-        }
-      - {
-          label: Additional Description,
-          hint: "FoodLab Detroit has created an effective model for developing cohorts of industry-specialized food entrepreneurs to provide...etc",
-          name: additional-description,
-          widget: markdown,
-        }
-      - {
-          label: Contact Call to Action,
-          hint: "e.g.: For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org.",
-          name: call-to-action,
-          widget: string,
-        }
