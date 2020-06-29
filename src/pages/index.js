@@ -12,11 +12,18 @@ import StoryBlocks from '../components/story-blocks'
 import OurVisionStoryBlocks from '../components/our-vision-story-blocks'
 
 const IndexPage = () => {
-  // this is where we import stuff to use in the page
-  // expect this to grow until we have all the content
-  // at some point we might refactor it, esp when we implement spanish
+  // just the images for section headers need to be here
   const images = useStaticQuery(graphql`
     {
+      smallBusinessesOfColor: file(
+        relativePath: { eq: "images/small-businesses-of-color.png" }
+      ) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
       vision: file(relativePath: { eq: "images/our-vision.png" }) {
         childImageSharp {
           fluid {
@@ -33,23 +40,15 @@ const IndexPage = () => {
           }
         }
       }
-      barriers: file(relativePath: { eq: "images/barriers.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
     }
   `)
 
   return (
     <Layout>
       <SEO title="Home" />
-
       <SectionHeader
-        imageSource={images.partnerships.childImageSharp.fluid}
-        altText="Explore The Partnerships"
+        imageSource={images.smallBusinessesOfColor.childImageSharp.fluid}
+        altText="Small Businesses of Color"
       />
       <StoryBlocks />
       <SectionHeader
@@ -58,6 +57,12 @@ const IndexPage = () => {
       />
       <OurVisionStoryBlocks />
       <FourColumnBlock />
+      <div className="partners-section-header">
+        <SectionHeader
+          imageSource={images.partnerships.childImageSharp.fluid}
+          altText="Explore The Partnerships"
+        />
+      </div>
       <Projects />
     </Layout>
   )

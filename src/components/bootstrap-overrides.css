@@ -1,3 +1,84 @@
 .card {
   border: none;
 }
+.partners-section-header {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #64c5b4 32.08%),
+    #ffffff;
+}
+.partners-container {
+  background-color: #64c5b4;
+}
+.partners {
+  text-align: left;
+  width: 520px;
+  border: none;
+  background-color: #64c5b4;
+}
+.partners-card {
+  background-color: #64c5b4;
+  color: white;
+  text-align: left;
+}
+.partners-image {
+  position: absolute;
+  /* height: 50;
+  width: 50; */
+  top: 100px;
+}
+.partners-title {
+  text-align: center;
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.partners-primary {
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+.partners-other {
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #ffffff;
+}
+.partners-description {
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.partners-additional {
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.partners-action {
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}

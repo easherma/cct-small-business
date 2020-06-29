@@ -27,7 +27,7 @@ const Projects = () => {
   `)
   const projectsData = projectsQuery.contentJson.projects
   return (
-    <div>
+    <div className="partners-container">
       {projectsData.map(node => (
         <Project
           image={node.image.childImageSharp.fluid}
