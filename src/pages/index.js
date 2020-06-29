@@ -26,58 +26,7 @@ const IndexPage = () => {
           }
         }
       }
-      chiSmallBusiness: file(
-        relativePath: { eq: "images/chi-sml-bus.png" }
-      ) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      barriers: file(relativePath: { eq: "images/barriers.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      open: file(relativePath: { eq: "images/blk-ltx-own.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      blackAndWhiteOwned: file(relativePath: { eq: "images/blk-wht-own.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      buenaEnglewood: file(relativePath: { eq: "images/buena-park-and-englewood.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
       vision: file(relativePath: { eq: "images/our-vision.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      businessPlan: file(relativePath: { eq: "images/notepad.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      awardedPartnerships: file(relativePath: { eq: "images/map-2.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
@@ -103,44 +52,12 @@ const IndexPage = () => {
         imageSource={images.smallBusinessesOfColor.childImageSharp.fluid}
         altText="Small Businesses of Color"
       />
-      <StoryBlock
-        imageSource={images.chiSmallBusiness.childImageSharp.fluid}
-        altText="Chicago Small Businesse"
-        description="Hellow word!"
-        imageRight
-      />
-      <StoryBlock
-        imageSource={images.barriers.childImageSharp.fluid}
-        altText="Barriers"
-        description="Hellow word!"
-      />
-      <StoryBlock
-        imageSource={images.open.childImageSharp.fluid}
-        altText="Black and Latinx-Owned Businesses"
-        description="Hellow word!"
-      />
-      <StoryBlock
-        imageSource={images.blackAndWhiteOwned.childImageSharp.fluid}
-        altText="Black and White-Owned Businesses"
-        description="Hellow word!"
-      />
-      <StoryBlock
-        imageSource={images.buenaEnglewood.childImageSharp.fluid}
-        altText="Buena Park and Englewood"
-        description="Hellow word!"
-      />
+      <StoryBlocks />
       <SectionHeader
         imageSource={images.vision.childImageSharp.fluid}
         altText="Our Vision"
       />
-      <OurVisionStoryBlocks imageSource={images.businessPlan.childImageSharp.fluid}
-        altText="Business Plans"
-        description="Hellow word!"
-      />
-      <OurVisionStoryBlocks imageSource={images.awardedPartnerships.childImageSharp.fluid}
-        altText="Explore The Partnerships"
-        description="Hellow word!"
-      />
+      <OurVisionStoryBlocks />
       <FourColumnBlock />
       <SectionHeader
         imageSource={images.partnerships.childImageSharp.fluid}
