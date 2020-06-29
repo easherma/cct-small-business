@@ -30,7 +30,7 @@ const OurVisionStoryBlocks = () => {
         <StoryBlock
           imageSource={node.image.childImageSharp.fluid}
           altText={node.altText && node.altText}
-          full_text={node.full_text && node.full_text}
+          fullText={node.full_text && node.full_text}
           imageRight={index % 2}
         />
       ))}
