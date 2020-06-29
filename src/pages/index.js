@@ -51,17 +51,6 @@ const IndexPage = () => {
         imageSource={images.partnerships.childImageSharp.fluid}
         altText="Explore The Partnerships"
       />
-      <StoryBlock
-        imageSource={images.barriers.childImageSharp.fluid}
-        altText="Barriers"
-        description="Hellow word!"
-      />
-      <StoryBlock
-        imageSource={images.barriers.childImageSharp.fluid}
-        altText="Barriers"
-        description="Hellow word!"
-        imageRight
-      />
       <StoryBlocks />
       <SectionHeader
         imageSource={images.vision.childImageSharp.fluid}
