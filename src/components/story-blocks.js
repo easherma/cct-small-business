@@ -15,7 +15,7 @@ const StoryBlocks = () => {
           image {
             childImageSharp {
               fluid {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
               }
             }
           }
@@ -25,14 +25,15 @@ const StoryBlocks = () => {
   `)
   const storyData = storysQuery.contentJson.stories
   return (
-    <div>
+    <div className="last-child-margin">
       {storyData.map((node, index) => (
         <StoryBlock
           bigText={true}
           imageSource={node.image.childImageSharp.fluid}
           altText={node.altText && node.altText}
           description={node.description && node.description}
-          imageRight={index % 2}
+          imageRight={index % 2 ? true : false}
+          key={index}
         />
       ))}
     </div>

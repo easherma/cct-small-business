@@ -4,20 +4,20 @@
   border: none;
 }
 .partners-section-header {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #64c5b4 32.08%),
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #2cd0af 32.08%),
     #ffffff;
 }
 .partners-container {
-  background-color: #64c5b4;
+  background-color: #2cd0af;
 }
 .partners {
   text-align: left;
   width: 520px;
   border: none;
-  background-color: #64c5b4;
+  background-color: #2cd0af;
 }
 .partners-card {
-  background-color: #64c5b4;
+  background-color: #2cd0af;
   color: white;
   text-align: left;
 }
@@ -89,4 +89,7 @@
 .our-vision-text {
   color: black;
   font-weight: normal;
-}
+
+section:last-child {
+  margin-bottom: 150px;
+
