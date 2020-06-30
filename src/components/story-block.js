@@ -19,7 +19,7 @@ const StoryBlock = ({
       className={
         bigText
           ? 'story-block-text story-block-big-text my-1'
-          : 'story-block-text my-1'
+          : 'story-block-text mb-5 mt-2'
       }
     >
       <Row>
