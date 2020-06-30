@@ -12,20 +12,23 @@ const StoryBlock = ({
   description,
   fullText,
   imageRight = false,
+  bigText = true,
 }) => (
-  <section>
-    <Container>
-      <Row>
-        <Col sm={{ span: '6', order: `${imageRight ? 'last' : 'first'} ` }}>
-          <Img fluid={imageSource} alt={altText} />
-        </Col>
-        <Col sm={6}>
-          {description}
-          <ReactMarkdown source={fullText} />
-        </Col>
-      </Row>
-    </Container>
-  </section>
-)
+    <section>
+      <Container className={bigText ? "story-block-text story-block-big-text" : "story-block-text"} >
+        <Row>
+          <Col className="align-middle" sm={{ span: '6', order: `${imageRight ? 'last' : 'first'} ` }}>
+            <Img fluid={imageSource} alt={altText} />
+          </Col>
+          <Col className="align-self-center" sm={6}>
+            <div >
+              {description}
+              <ReactMarkdown source={fullText} />
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  )
 
 export default StoryBlock

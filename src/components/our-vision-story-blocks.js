@@ -28,6 +28,7 @@ const OurVisionStoryBlocks = () => {
     <div>
       {storyData.map((node, index) => (
         <StoryBlock
+          bigText={false}
           imageSource={node.image.childImageSharp.fluid}
           altText={node.altText && node.altText}
           fullText={node.full_text && node.full_text}
