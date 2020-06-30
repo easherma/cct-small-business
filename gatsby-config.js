@@ -7,7 +7,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        defaultQuality: 30,
+        cropFocus: `CENTER`,
+      },
+    },
     `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-json`,
     {

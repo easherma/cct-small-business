@@ -17,7 +17,7 @@ const Projects = () => {
           image {
             childImageSharp {
               fluid {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
               }
             }
           }
@@ -28,7 +28,7 @@ const Projects = () => {
   const projectsData = projectsQuery.contentJson.projects
   return (
     <div className="partners-container">
-      {projectsData.map(node => (
+      {projectsData.map((node, index) => (
         <Project
           image={node.image.childImageSharp.fluid}
           title={node.title}
@@ -37,6 +37,7 @@ const Projects = () => {
           description={node.description}
           additionalDescription={node.additional_description}
           callToAction={node.call_to_action}
+          key={index}
         />
       ))}
     </div>
