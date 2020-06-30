@@ -2,6 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Card from 'react-bootstrap/Card'
 import StoryBlock from './story-block'
+import Container from 'react-bootstrap/Container'
 
 const OurVisionStoryBlocks = () => {
   const storysQuery = useStaticQuery(graphql`
@@ -25,17 +26,17 @@ const OurVisionStoryBlocks = () => {
   `)
   const storyData = storysQuery.contentJson.expanded_stories
   return (
-    <div>
+    <div className="our-vision-text">
       {storyData.map((node, index) => (
         <StoryBlock
-          bigText={false}
           imageSource={node.image.childImageSharp.fluid}
           altText={node.altText && node.altText}
           fullText={node.full_text && node.full_text}
           imageRight={index % 2}
         />
-      ))}
-    </div>
+      ))
+      }
+    </div >
   )
 }
 

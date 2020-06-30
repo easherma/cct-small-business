@@ -12,7 +12,7 @@ const StoryBlock = ({
   description,
   fullText,
   imageRight = false,
-  bigText = true,
+  bigText = false,
 }) => (
     <section>
       <Container className={bigText ? "story-block-text story-block-big-text" : "story-block-text"} >
