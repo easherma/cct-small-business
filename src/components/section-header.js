@@ -7,7 +7,7 @@ import Img from 'gatsby-image'
 
 const SectionHeader = ({ imageSource, altText }) => (
   <header>
-    <Container className="w-45">
+    <Container>
       <div>
         <Img fluid={imageSource} alt={altText} className="img-responsive" />
       </div>
