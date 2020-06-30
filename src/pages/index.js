@@ -20,14 +20,14 @@ const IndexPage = () => {
       ) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
       }
       vision: file(relativePath: { eq: "images/our-vision.png" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
       }
@@ -36,7 +36,7 @@ const IndexPage = () => {
       ) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
       }

@@ -14,14 +14,16 @@ const StoryBlock = ({
   imageRight = false,
 }) => (
   <section>
-    <Container>
+    <Container className="my-1">
       <Row>
         <Col sm={{ span: '6', order: `${imageRight ? 'last' : 'first'} ` }}>
           <Img fluid={imageSource} alt={altText} />
         </Col>
         <Col sm={6}>
-          {description}
-          <ReactMarkdown source={fullText} />
+          <p className="font-weight-bold">{description}</p>
+          <div className="pb-5">
+            <ReactMarkdown source={fullText} />
+          </div>
         </Col>
       </Row>
     </Container>
