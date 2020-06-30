@@ -28,6 +28,7 @@ const StoryBlocks = () => {
     <div className="last-child-margin">
       {storyData.map((node, index) => (
         <StoryBlock
+          bigText={true}
           imageSource={node.image.childImageSharp.fluid}
           altText={node.altText && node.altText}
           description={node.description && node.description}

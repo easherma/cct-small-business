@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .card {
   border: none;
 }
@@ -21,13 +23,10 @@
 }
 .partners-image {
   position: absolute;
-  /* height: 50;
-  width: 50; */
   top: 100px;
 }
 .partners-title {
   text-align: center;
-  /* font-family: Roboto; */
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -37,7 +36,6 @@
   color: #ffffff;
 }
 .partners-primary {
-  /* font-family: Roboto; */
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -48,7 +46,6 @@
   color: #ffffff;
 }
 .partners-other {
-  /* font-family: Roboto; */
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -58,7 +55,6 @@
   color: #ffffff;
 }
 .partners-description {
-  /* font-family: Roboto; */
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -67,7 +63,6 @@
   color: #ffffff;
 }
 .partners-additional {
-  /* font-family: Roboto; */
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -75,12 +70,25 @@
   color: #ffffff;
 }
 .partners-action {
-  /* font-family: Roboto; */
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   color: #ffffff;
+}
+
+.story-block-text {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-style: normal;
+}
+.story-block-big-text {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #707070;
+}
+.our-vision-text {
+  color: black;
+  font-weight: normal;
 }
 
 section:last-child {

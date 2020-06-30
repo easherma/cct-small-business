@@ -12,14 +12,24 @@ const StoryBlock = ({
   description,
   fullText,
   imageRight = false,
+  bigText = false,
 }) => (
   <section>
-    <Container className="my-1">
+    <Container
+      className={
+        bigText
+          ? 'story-block-text story-block-big-text my-1'
+          : 'story-block-text my-1'
+      }
+    >
       <Row>
-        <Col sm={{ span: '6', order: `${imageRight ? 'last' : 'first'} ` }}>
+        <Col
+          className="align-middle"
+          sm={{ span: '6', order: `${imageRight ? 'last' : 'first'} ` }}
+        >
           <Img fluid={imageSource} alt={altText} />
         </Col>
-        <Col sm={6}>
+        <Col className="align-self-center" sm={6}>
           <p className="font-weight-bold">{description}</p>
           <div className="pb-5">
             <ReactMarkdown source={fullText} />
