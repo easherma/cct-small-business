@@ -2,7 +2,7 @@ backend:
   name: git-gateway
 
 # when using the default proxy server port
-local_backend: false
+local_backend: true
 media_folder: src/content/
 collections:
   - label: "Pages"
@@ -14,6 +14,12 @@ collections:
         file: "src/content/en.json"
         media_folder: images
         fields:
+          - {
+              label: "language",
+              name: "language",
+              widget: "hidden",
+              default: "en",
+            }
           - { label: Site Title Image, name: site-title-image, widget: image }
           - { label: Description, name: site-description, widget: string }
           - {
@@ -21,6 +27,13 @@ collections:
               name: site-additional-description,
               widget: string,
             }
+          - label: Section Headers
+            name: section-headers
+            widget: object
+            fields:
+              - { label: Section Title 1, name: section-title-1, widget: image }
+              - { label: Section Title 2, name: section-title-2, widget: image }
+              - { label: Section Title 2, name: section-title-3, widget: image }
           - label: Story Blocks
             name: stories
             widget: list
@@ -149,6 +162,12 @@ collections:
         file: "src/content/es.json"
         media_folder: images
         fields:
+          - {
+              label: "language",
+              name: "language",
+              widget: "hidden",
+              default: "es",
+            }
           - { label: Site Title Image, name: site-title-image, widget: image }
           - { label: Description, name: site-description, widget: string }
           - {

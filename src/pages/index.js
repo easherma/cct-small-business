@@ -34,19 +34,26 @@ const IndexPage = ({ data, pageContext }) => {
       <Header image={data.contentJson.site_title_image.childImageSharp.fluid} />
 
       <SectionHeader
-        imageSource={data.contentJson.section_title_1.childImageSharp.fluid}
+        imageSource={
+          data.contentJson.section_headers.section_title_1.childImageSharp.fluid
+        }
         altText="Small Businesses of Color"
       />
       <StoryBlocks />
       <SectionHeader
-        imageSource={data.contentJson.section_title_2.childImageSharp.fluid}
+        imageSource={
+          data.contentJson.section_headers.section_title_2.childImageSharp.fluid
+        }
         altText="Our Vision"
       />
       <OurVisionStoryBlocks />
       <FourColumnBlock />
       <div className="partners-section-header">
         <SectionHeader
-          imageSource={data.contentJson.section_title_3.childImageSharp.fluid}
+          imageSource={
+            data.contentJson.section_headers.section_title_3.childImageSharp
+              .fluid
+          }
           altText="Explore The Partnerships"
         />
       </div>
@@ -66,25 +73,27 @@ export const query = graphql`
           }
         }
       }
-      section_title_1 {
-        id
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
+      section_headers {
+        section_title_1 {
+          id
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
           }
         }
-      }
-      section_title_2 {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        section_title_2 {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
           }
         }
-      }
-      section_title_3 {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        section_title_3 {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
           }
         }
       }
