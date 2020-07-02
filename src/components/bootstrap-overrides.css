@@ -109,3 +109,8 @@
 section:last-child {
   margin-bottom: 150px;
 }
+
+svg {
+  position: absolute;
+  z-index: -1;
+}

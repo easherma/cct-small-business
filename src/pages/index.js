@@ -20,6 +20,8 @@ import {
 import Header from '../components/header'
 import Language from '../components/language'
 
+import LineSvg from '../components/line'
+
 const IndexPage = ({ data, pageContext }) => {
   const intl = useIntl()
   // just the images for section headers need to be here
@@ -32,7 +34,7 @@ const IndexPage = ({ data, pageContext }) => {
       <Language />
       <Link to="/es">Spanish</Link>
       <Header image={data.contentJson.site_title_image.childImageSharp.fluid} />
-
+      <LineSvg />
       <SectionHeader
         imageSource={
           data.contentJson.section_headers.section_title_1.childImageSharp.fluid
