@@ -5,20 +5,20 @@ backend:
 local_backend: false
 media_folder: src/content/
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: 'Pages'
+    name: 'pages'
     files:
-      - label: "Index Page English"
-        name: "index_en"
+      - label: 'Index Page English'
+        name: 'index_en'
         extension: json
-        file: "src/content/en.json"
+        file: 'src/content/en.json'
         media_folder: images
         fields:
           - {
-              label: "language",
-              name: "language",
-              widget: "hidden",
-              default: "en",
+              label: 'language',
+              name: 'language',
+              widget: 'hidden',
+              default: 'en',
             }
           - { label: Site Title Image, name: site-title-image, widget: image }
           - { label: Description, name: site-description, widget: string }
@@ -42,15 +42,15 @@ collections:
                   label: Description,
                   name: description,
                   widget: string,
-                  default: " ",
+                  default: ' ',
                 }
               - { label: Image, name: image, widget: image }
               - {
                   label: Full Text Description,
                   name: full-text,
-                  hint: "Use this field for the larger blocks that need formatted text",
+                  hint: 'Use this field for the larger blocks that need formatted text',
                   widget: markdown,
-                  default: "",
+                  default: '',
                   required: false,
                 }
           - label: Our Vision Story Blocks
@@ -61,7 +61,7 @@ collections:
                   label: Description,
                   name: description,
                   widget: string,
-                  default: " ",
+                  default: ' ',
                 }
               - { label: Image, name: image, widget: image }
               - {
@@ -69,15 +69,15 @@ collections:
                   hint: "an accessible description of the image for when the image dosen't show or someone is using a screen reader",
                   name: alt-text,
                   widget: string,
-                  default: "illustration of the content",
+                  default: 'illustration of the content',
                 }
 
               - {
                   label: Full Text Description,
                   name: full-text,
-                  hint: "Use this field for the larger blocks that need formatted text",
+                  hint: 'Use this field for the larger blocks that need formatted text',
                   widget: markdown,
-                  default: "",
+                  default: '',
                   required: false,
                 }
               # - {
@@ -102,20 +102,20 @@ collections:
               - { label: Description4, name: description4, widget: string }
               - {
                   label: Contact Call to Action,
-                  hint: "e.g.: For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org.",
+                  hint: 'e.g.: For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org.',
                   name: call-to-action,
                   widget: string,
                 }
           - label: Projects
             name: projects
-            folder: "src/content/projects"
-            media_folder: "project-icons"
-            public_folder: "project-icons"
+            folder: 'src/content/projects'
+            media_folder: 'project-icons'
+            public_folder: 'project-icons'
             widget: list
             fields:
               - {
                   label: Project Title,
-                  hint: "FoodLab Chicago",
+                  hint: 'FoodLab Chicago',
                   name: title,
                   widget: string,
                 }
@@ -124,51 +124,58 @@ collections:
                   name: image,
                   widget: image,
                   required: false,
-                  default: "project-icons/light-bulb.png",
+                  default: 'project-icons/light-bulb.png',
                 }
               - {
                   label: Primary Partner,
-                  hint: "Greater Chatham Initiative",
+                  hint: 'Greater Chatham Initiative',
                   name: primary-partner,
                   widget: string,
                 }
               - {
                   label: Other Partners,
-                  hint: "In partnership with FoodLab Detroit, Association for Enterprise Opportunity and South Shore Chamber of Commerce.",
+                  hint: 'In partnership with FoodLab Detroit, Association for Enterprise Opportunity and South Shore Chamber of Commerce.',
                   name: other-partners,
                   widget: string,
                 }
               - {
                   label: Description,
-                  hint: "Providing integrated services to mature food businesses owned by people of color in the South Shore and Chatham communities by addressing acute barriers that hamper their growth.",
+                  hint: 'Providing integrated services to mature food businesses owned by people of color in the South Shore and Chatham communities by addressing acute barriers that hamper their growth.',
                   name: description,
                   widget: text,
                 }
               - {
                   label: Additional Description,
-                  hint: "FoodLab Detroit has created an effective model for developing cohorts of industry-specialized food entrepreneurs to provide...etc",
+                  hint: 'FoodLab Detroit has created an effective model for developing cohorts of industry-specialized food entrepreneurs to provide...etc',
                   name: additional-description,
                   widget: markdown,
                 }
               - {
                   label: Contact Call to Action,
-                  hint: "e.g.: For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org.",
+                  hint: 'e.g.: For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org.',
                   name: call-to-action,
                   widget: string,
                 }
-      - label: "Index Page Spanish"
-        name: "index_es"
+      - label: 'Index Page Spanish'
+        name: 'index_es'
         extension: json
-        file: "src/content/es.json"
+        file: 'src/content/es.json'
         media_folder: images
         fields:
           - {
-              label: "language",
-              name: "language",
-              widget: "hidden",
-              default: "es",
+              label: 'language',
+              name: 'language',
+              widget: 'hidden',
+              default: 'es',
             }
           - { label: Site Title Image, name: site-title-image, widget: image }
+          - label: Section Headers
+            name: section-headers
+            widget: object
+            fields:
+              - { label: Section Title 1, name: section-title-1, widget: image }
+              - { label: Section Title 2, name: section-title-2, widget: image }
+              - { label: Section Title 2, name: section-title-3, widget: image }
           - { label: Description, name: site-description, widget: string }
           - {
               label: Additional Description,
@@ -183,15 +190,15 @@ collections:
                   label: Description,
                   name: description,
                   widget: string,
-                  default: " ",
+                  default: ' ',
                 }
               - { label: Image, name: image, widget: image }
               - {
                   label: Full Text Description,
                   name: full-text,
-                  hint: "Use this field for the larger blocks that need formatted text",
+                  hint: 'Use this field for the larger blocks that need formatted text',
                   widget: markdown,
-                  default: "",
+                  default: '',
                   required: false,
                 }
           - label: Our Vision Story Blocks
@@ -202,7 +209,7 @@ collections:
                   label: Description,
                   name: description,
                   widget: string,
-                  default: " ",
+                  default: ' ',
                 }
               - { label: Image, name: image, widget: image }
               - {
@@ -210,15 +217,15 @@ collections:
                   hint: "an accessible description of the image for when the image dosen't show or someone is using a screen reader",
                   name: alt-text,
                   widget: string,
-                  default: "illustration of the content",
+                  default: 'illustration of the content',
                 }
 
               - {
                   label: Full Text Description,
                   name: full-text,
-                  hint: "Use this field for the larger blocks that need formatted text",
+                  hint: 'Use this field for the larger blocks that need formatted text',
                   widget: markdown,
-                  default: "",
+                  default: '',
                   required: false,
                 }
               # - {
@@ -243,20 +250,20 @@ collections:
               - { label: Description4, name: description4, widget: string }
               - {
                   label: Contact Call to Action,
-                  hint: "e.g.: For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org.",
+                  hint: 'e.g.: For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org.',
                   name: call-to-action,
                   widget: string,
                 }
           - label: Projects
             name: projects
-            folder: "src/content/projects"
-            media_folder: "project-icons"
-            public_folder: "project-icons"
+            folder: 'src/content/projects'
+            media_folder: 'project-icons'
+            public_folder: 'project-icons'
             widget: list
             fields:
               - {
                   label: Project Title,
-                  hint: "FoodLab Chicago",
+                  hint: 'FoodLab Chicago',
                   name: title,
                   widget: string,
                 }
@@ -265,35 +272,35 @@ collections:
                   name: image,
                   widget: image,
                   required: false,
-                  default: "project-icons/light-bulb.png",
+                  default: 'project-icons/light-bulb.png',
                 }
               - {
                   label: Primary Partner,
-                  hint: "Greater Chatham Initiative",
+                  hint: 'Greater Chatham Initiative',
                   name: primary-partner,
                   widget: string,
                 }
               - {
                   label: Other Partners,
-                  hint: "In partnership with FoodLab Detroit, Association for Enterprise Opportunity and South Shore Chamber of Commerce.",
+                  hint: 'In partnership with FoodLab Detroit, Association for Enterprise Opportunity and South Shore Chamber of Commerce.',
                   name: other-partners,
                   widget: string,
                 }
               - {
                   label: Description,
-                  hint: "Providing integrated services to mature food businesses owned by people of color in the South Shore and Chatham communities by addressing acute barriers that hamper their growth.",
+                  hint: 'Providing integrated services to mature food businesses owned by people of color in the South Shore and Chatham communities by addressing acute barriers that hamper their growth.',
                   name: description,
                   widget: text,
                 }
               - {
                   label: Additional Description,
-                  hint: "FoodLab Detroit has created an effective model for developing cohorts of industry-specialized food entrepreneurs to provide...etc",
+                  hint: 'FoodLab Detroit has created an effective model for developing cohorts of industry-specialized food entrepreneurs to provide...etc',
                   name: additional-description,
                   widget: markdown,
                 }
               - {
                   label: Contact Call to Action,
-                  hint: "e.g.: For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org.",
+                  hint: 'e.g.: For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org.',
                   name: call-to-action,
                   widget: string,
                 }
