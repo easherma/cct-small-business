@@ -8,10 +8,10 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "Index Page"
-        name: "index"
+      - label: "Index Page English"
+        name: "index_en"
         extension: json
-        file: "src/content/index.json"
+        file: "src/content/en.json"
         media_folder: images
         fields:
           - { label: Site Title Image, name: site-title-image, widget: image }
@@ -146,7 +146,7 @@ collections:
       - label: "Index Page Spanish"
         name: "index_es"
         extension: json
-        file: "src/content/index-es.json"
+        file: "src/content/es.json"
         media_folder: images
         fields:
           - { label: Site Title Image, name: site-title-image, widget: image }

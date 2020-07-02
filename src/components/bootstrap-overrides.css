@@ -3,6 +3,21 @@
 .card {
   border: none;
 }
+
+.language-switcher {
+  position: fixed;
+  z-index: 99;
+}
+
+.language-switcher > button {
+  background-color: #2cd0af;
+  border-color: #2cd0af;
+}
+
+.language-switcher > button:hover {
+  background-color: #197c68;
+  border-color: #197c68;
+}
 .partners-section-header {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #2cd0af 32.08%),
     #ffffff;

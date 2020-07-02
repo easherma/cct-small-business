@@ -139,6 +139,7 @@
       "call-to-action": "For more information about Expanding Minority Business Access, contact Georgia Marsh at gmarsh@wbdc.org. "
     }
   ],
+  "language": "en",
   "site-title-image": "images/title-homepage-eng.png",
   "site-description": "Creating a marketplace of services for entrepreneurs of color in the Chicago region to close the racial and ethnic wealth gap and build a more just, equitable and resilient society.",
   "site-additional-description": "A collaboration between The Chicago Community Trust,  The Coleman Foundation, JPMorgan Chase Foundation, Robert R. McCormick Foundation, Leslie Bluhm and David Helfand, Peter and Lucy Ascoli Family Fund, and the Liz and Don Thompson Family Fund.",
@@ -167,5 +168,8 @@
     "description4": "the access entrepreneurs have to a trusted network of local small business professionals and community groups",
     "call-to-action": "We invite you to join us in supporting this effort. To learn how to do so, contact Shandra Richardson, Program Manager, The Chicago Community Trust, at srichardson@cct.org.",
     "image4": "images/arrow4.png"
-  }
+  },
+  "section-title-1": "images/small-businesses-of-color.png",
+  "section-title-2": "images/our-vision.png",
+  "section-title-3": "images/explore-the-partnership-white.png"
 }
