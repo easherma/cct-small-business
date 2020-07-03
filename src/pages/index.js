@@ -35,6 +35,7 @@ const IndexPage = ({ data, pageContext }) => {
       <Link to="/es">Spanish</Link>
       <Header image={data.contentJson.site_title_image.childImageSharp.fluid} />
       <LineSvg />
+
       <SectionHeader
         imageSource={
           data.contentJson.section_headers.section_title_1.childImageSharp.fluid
