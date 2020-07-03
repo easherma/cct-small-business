@@ -23,7 +23,7 @@ const StoryBlock = ({
     <Container
       className={
         bigText
-          ? 'story-block-text story-block-big-text mb-1'
+          ? 'story-block-text story-block-big-text mb-5 mt-2'
           : 'story-block-text mb-5 mt-2'
       }
     >
