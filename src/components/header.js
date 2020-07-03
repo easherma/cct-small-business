@@ -34,7 +34,9 @@ const Header = ({ image }) => {
             className="img-responsive"
             alt="The Fund for Equitable Business Growth"
           />
-          <h1 className="lead">{data.contentJson.site_description}</h1>
+          <h1 className="lead">
+            {intl.formatMessage({ id: 'site-description' })}
+          </h1>
 
           <p>{intl.formatMessage({ id: 'site-additional-description' })}</p>
         </div>

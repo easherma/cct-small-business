@@ -1,195 +1,177 @@
 {
+  "site-title-image": "images/title-homepage-spa.png",
   "stories": [
     {
       "full-text": "",
       "imageRight": true,
       "image": "images/data-1.png",
-      "description": "Chicago’s small businesses drive economic empowerment — providing 58% of all jobs in the city and 70% of the jobs in underinvested neighborhoods. "
+      "description": "Las pequeñas empresas en Chicago impulsan el empoderamiento económico – proporcionan el 58% del total de empleos en la ciudad y el 70% de los empleos en barrios con baja inversión. "
     },
     {
       "full-text": "",
       "imageRight": false,
-      "description": "Despite their vision, tenacity and commitment, entrepreneurs of color face significant barriers to success. ",
-      "image": "images/barriers.png",
+      "description": "A pesar de su visión, tenacidad y compromiso, los empresarios de color enfrentan barreras significativas para el éxito. ",
+      "image": "images/barriers-spa.png",
       "alt-text": "a light bulb"
     },
     {
-      "description": " Black and Latinx-owned businesses comprise just 8% of the total number of small businesses combined.",
+      "description": "Los negocios de propietarios negros y latinos combinados comprenden sólo el 8% del número total de pequeñas empresas.",
       "full-text": "",
       "image": "images/data-2.png"
     },
     {
-      "description": " The average White-owned business is valued at more than 12x the value of the average Black-owned business.",
+      "description": "El negocio promedio de propietarios blancos se valora en más de 12 veces que el negocio promedio de propietario negro.",
       "full-text": "",
       "image": "images/data-3b.png"
     },
     {
-      "description": " Small businesses in Englewood (94% Black) are operating with less than a week of cash reserves in their deposit accounts, compared to 17 days for small businesses in Buena Park (Uptown, 54% White)—three times the cash liquidity.",
+      "description": "Las pequeñas empresas en Englewood (94% población negra) operan con menos de una semana de reservas de efectivo en sus cuentas de depósito bancarias, en comparación con 17 días en el caso de los negocios en Buena Park (Uptown, 54% población blanca) – tres veces más liquidez en efectivo.",
       "full-text": "",
       "image": "images/buena-park-and-englewood.png"
     }
   ],
+  "site-description": "Creando un mercado de servicios para emprendedores de color para cerrar la brecha de riqueza racial y construir una sociedad más justa, equitativa y resiliente",
+  "language": "es",
   "projects": [
     {
       "image": "project-icons/xquina-incubator.png",
       "title": "Xquina Incubator",
-      "primary-partner": "Little Village Community Foundation",
-      "other-partners": "In partnership with Illinois Hispanic Chamber of Commerce, State of Illinois Procurement Technical Assistance Center and FourStar Branding, as well as local universities.",
-      "description": "Creating an open, accessible and inclusive learning environment that provides bilingual, adaptable training and coaching for current and emerging businesses, working-class residents, media professionals and local",
-      "additional-description": "The Little Village Community Foundation and its core partners are providing technical business support, branding, entrepreneurial training and a bilingual, immigrant-focused, cohort-based program.",
-      "call-to-action": "For more information about the Xquina Incubator, contact Kim Close at kim@littlevillagechamber.org."
+      "primary-partner": "Proyecto liderado por la Fundación Comunitaria de La Villita",
+      "other-partners": "En colaboración con la Cámara de Comercio Hispana de Illinois, el Centro de Asistencia Técnica de Adquisiciones del Estado de Illinois y la empresa FourStar Branding, así como universidades locales.",
+      "description": "Crea un entorno de aprendizaje abierto, accesible e inclusivo que proporcione capacitación y tutoría bilingües y adaptables para negocios emergentes, familias de clase trabajadora, profesionales de los medios y juventud local. \n",
+      "additional-description": "La Fundación de La Villita y sus principales colaboradores brindan apoyo técnico comercial, desarrollo de marcas, capacitación empresarial y un grupo de interés bilingüe, con enfoque para inmigrantes.",
+      "call-to-action": "Para mayor información sobre la Incubadora Xquina, por favor comuníquese con Kim Close (kim@littlevillagechamber.org)."
     },
     {
       "image": "project-icons/creating-and-supporting-businesses-of-color.png",
-      "title": "Belmont Cragin Business Collaborative (BCBC)",
-      "primary-partner": "Northwest Side Housing Center",
-      "other-partners": "In partnership with the Women’s Business Development Center, Chicago Police Department (25th), CIBC Bank, Local Initiatives Support Corporation Chicago and Associated Bank",
-      "description": "Providing personalized business capacity building and access to new, flexible and patient capital in the Belmont Cragin neighborhood.",
-      "additional-description": "This partnership is working to promote safe, beautiful streets along the commercial corridor in the Belmont Cragin neighborhood.",
-      "call-to-action": "For more information about the Belmont Cragin Business Collaborative, contact Jason Esttremera at Jestremera@northwestsidecdc.org."
-    },
-    {
-      "image": "project-icons/light-bulb.png",
-      "title": "Xquina Incubator",
-      "primary-partner": "Project led by Little Village Community Foundation",
-      "other-partners": "In partnership with Illinois Hispanic Chamber of Commerce, State of Illinois Procurement Technical Assistance Center and FourStar Branding, as well as local universities.",
-      "description": "Creating an open, accessible and inclusive learning environment that provides bilingual, adaptable training and coaching for current and emerging businesses, working-class residents, media professionals and local youth. ",
-      "additional-description": "The Little Village Community Foundation and its core partners are providing technical business support, branding, entrepreneurial training and a bilingual, immigrant-focused, cohort-based program.",
-      "call-to-action": "For more information about the Xquina Incubator, contact Kim Close at kim@littlevillagechamber.org."
-    },
-    {
-      "image": "project-icons/light-bulb.png",
-      "title": "Belmont Cragin Business Collaborative (BCBC)",
-      "primary-partner": "Project led by Northwest Side Housing Center",
-      "other-partners": "In partnership with the Women’s Business Development Center, Chicago Police Department (25th), CIBC Bank, Local Initiatives Support Corporation Chicago and Associated Bank.",
-      "description": "Providing personalized business capacity building and access to new, flexible and patient capital in the Belmont Cragin neighborhood.   ",
-      "additional-description": "This partnership is working to promote safe, beautiful streets along the commercial corridor in the Belmont Cragin neighborhood.",
-      "call-to-action": "For more information about the Belmont Cragin Business Collaborative, contact Jason Estremera at Jestremera@northwestsidecdc.org."
+      "title": "Colectivo Empresarial de Belmont Cragin (BCBC)",
+      "primary-partner": "Proyecto liderado por el Centro de Vivienda del Área Noroeste",
+      "other-partners": "En colaboración con el Centro de Desarrollo de Empresas de Mujeres (WBDC), el Departamento de Policía (25o), el Banco CIBC, Corporación de Apoyo para Iniciativas Locales (LISC) y el Banco Associated.",
+      "description": "Brinda capacitación empresarial personalizada para fomentar las capacidades y acceder a capital nuevo, flexible y de largo plazo para la comunidad de Belmont Cragin.",
+      "additional-description": "Esta alianza trabaja para promover la seguridad y el embellecimiento de calles a lo largo del corredor comercial en la comunidad de Belmont Cragin.",
+      "call-to-action": "Para mayor información sobre el Colectivo Empresarial de Belmont Cragin, por favor comuníquese con Jason Esttremera (jestremera@northwestsidecdc.org)."
     },
     {
       "image": "project-icons/light-bulb.png",
       "title": "Empresarias del Futuro",
-      "primary-partner": "Project led by Mujeres Latinas En Acción",
-      "other-partners": "In partnership with the Brighton Park Neighborhood Council.",
-      "description": "Offering an adult-learning entrepreneurship model that services low and moderate-income women, particularly Spanish-speaking and immigrant women.",
+      "primary-partner": "Proyecto liderado por Mujeres Latinas en Acción",
+      "other-partners": "En colaboración con el Consejo de la Comunidad de Brighton Park. ",
+      "description": "Ofrece un modelo de emprendimiento de aprendizaje para adultos que se enfoca en mujeres de ingresos bajos y moderados, particularmente mujeres hispanas y de habla hispana. ",
       "additional-description": "In recognition of a growing market in Brighton Park, from its headquarters in Pilsen, Latin Women in Action is partnering with the Brighton Park Neighborhood Council to expand its successful Empresarias del Futuro entrepreneur program. A long-standing and trusted community organizing group, coalition leader and service provider, Brighton Park Neighborhood Council plays an important role in referrals and relationship building with the community.",
-      "call-to-action": "For more information about Empresarias del Futuro, contact Fanny Cano  at fcano@mujereslat.org."
+      "call-to-action": "Para mayor información sobre Empresarias del Futuro, por favor comuníquese con Fanny Cano (fcano@mujereslat.org)."
     },
     {
-      "title": "Basic Financials for Business",
+      "title": "Finanzas Básicas para Negocios",
       "image": "project-icons/basic-financials-for-business.png",
-      "primary-partner": "Project led by Greater Southwest Development Corporation",
-      "other-partners": "In partnership with Greater Englewood Chamber of Commerce, Emerald South Economic Development Collaborative and Rogers Park Business Alliance.",
-      "description": "Training and connecting businesses of color and of dual language to each other and a collective array of resources, with a focus on increasing access to capital. \n",
+      "primary-partner": "Proyecto liderado por la Corporación de Desarrollo del Gran Suroeste es la organización líder",
+      "other-partners": "En colaboración con la Cámara de Comercio del Área de Englewood, Colaborativo de Desarrollo Económico Esmeralda Sur y la Alianza de Negocios de la Comunidad de Rogers Park.  ",
+      "description": "Capacitación y conexión de negocios de color y bilingües entre sí y a una variedad de recursos con enfoque en aumentar el acceso a capital.",
       "additional-description": "This partnership is expanding its business financial readiness curriculum to additional neighborhoods and increasing the number of entrepreneurs successfully obtaining financing. It is also establishing an alumni network that will gather three times over the course of the year to connect and collaborate.",
-      "call-to-action": "For more information about Basic Financials for Business, contact Erika Gonzalez at e.gonzalez@greatersouthwest.org."
+      "call-to-action": "Para mayor información sobre Finanzas Básicas para Negocios, por favor comuníquese con Erika González (e.gonzalez@greatersouthwest.org)."
     },
     {
       "image": "project-icons/light-bulb.png",
-      "title": "Financial Literacy Dashboard for Small Business Project",
-      "primary-partner": "Project led by New Development Corporation",
-      "other-partners": "In partnership with New Covenant CDC, Sunshine Enterprises and the North Lawndale Chamber.",
-      "description": "Working together to provide specific training in the area of financial management for small and micro-businesses.",
-      "additional-description": "These partners, who have a strong working relationship, work with entrepreneurs to start or grow businesses. They strive to serve 75-100 entrepreneurs by increasing from three to five cohorts and expanding to serve both the South and West sides of Chicago.",
-      "call-to-action": "For more information about Financial Literacy Dashboard for Small Business Project, contact Rodney Brown at rodney@new-covenantcdc.org."
+      "title": "Panel de Conocimiento Financiero para Proyectos de Pequeños Negocios",
+      "primary-partner": "Proyecto liderado por la Corporación de Nuevo Desarrollo",
+      "other-partners": "En colaboración con la Corporación de Desarrollo Comunitario Nuevo Pacto, Sunshine Enterprises, y la Cámara de North Lawndale.",
+      "description": "Trabaja en conjunto para la capacitación específica en gestión financiera para micro y pequeños negocios. ",
+      "additional-description": "Estos aliados, que tienen una sólida relación de trabajo, trabajan con empresarios para lanzar o crecer negocios. Se esfuerzan por servir entre 75-100 emprendedores aumentando de tres a cinco grupos de capacitación en las área sur y oeste de Chicago.",
+      "call-to-action": "Para mayor información sobre el Panel de Conocimiento Financiero para Proyectos de Pequeños Negocios, por favor comuníquese con Rodney Brown (rodney@new-convenantcdc.org)."
     },
     {
       "image": "project-icons/light-bulb.png",
       "title": "FoodLab Chicago",
-      "primary-partner": "Project led by Greater Chatham Initiative",
-      "other-partners": "In partnership with FoodLab Detroit, Association for Enterprise Opportunity and South Shore Chamber of Commerce.",
-      "description": "Providing integrated services to mature food businesses owned by people of color in the South Shore and Chatham communities by addressing acute barriers that hamper their growth.",
-      "additional-description": "FoodLab Detroit has created an effective model for developing cohorts of industry-specialized food entrepreneurs to provide not only technical support but also strong network ties between food businesses of color facing similar growth opportunities and challenges. Through this work, the partnership will establish a new FoodLab Chicago to provide in-person technical assistance to the 25 food businesses that are the nucleus of Restaurant Row and 71st Street.",
-      "call-to-action": "For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org."
+      "primary-partner": "Proyecto liderado por la Iniciativa del Área de Chatham",
+      "other-partners": "En colaboración con FoodLab Detroit, la Asociación de Empresas de Oportunidad y la Cámara de Comercio de la South Shore. ",
+      "description": "Brinda servicios integrados a negocios con experiencia en alimentos que pertenecen a propietarios de color en las comunidades de South Shore y Chatham abordando las barreras agudas que obstaculizan su crecimiento. ",
+      "additional-description": "*FoodLab Detroit* ha creado un modelo efectivo para el desarrollo de grupos de empresarios especializados en la industria de alimentos para proporcionar asistencia técnica y redes empresariales entre empresas de alimentos que enfrentan desafíos de crecimiento similares. A través de este proyecto, la alianza establecerá un nuevo FoodLab en Chicago para proporcionar asistencia técnica en persona a los 25 negocios que son el núcleo de Restaurant Row y la Calle 71a.",
+      "call-to-action": "Para mayor información sobre FoodLab Chicago, por favor comuníquese con Nedra Sims (nedra@greaterchataminitiative.org)."
     },
     {
       "image": "project-icons/light-bulb.png",
-      "title": "Light Bulb",
-      "primary-partner": "Project led by Elevate Energy",
-      "other-partners": "In partnership with Sustainable Options for Urban Living (SOUL) and Business Services Collective.",
-      "description": "Reducing barriers for minority contractors through shared back office services. ",
+      "title": "Foco",
+      "primary-partner": "Proyecto liderado por Elevar Energía ",
+      "other-partners": "en colaboración con Opciones Sustentables para la Habitabilidad Urbana (SOUL) y el Colectivo de Servicios a Negocios. ",
+      "description": "Reduce las  barreras para contratistas de grupos minoritarios a través de servicios de apoyo compartidos.",
       "additional-description": "This partnership is launching a pilot to provide operational capacity and back office services for solar construction businesses owned by people of color. The project focuses on businesses that have been receiving technical training from Elevate Energy and SOUL on energy efficiency and solar installations and will start initially with helping these companies set up the systems they need to bid for contracts. The ultimate goal is to build out a suite of back office business services.",
-      "call-to-action": "For more information about Light Bulb, contact Jeanine Otte at Jeanine.Otte@elevateenergy.org."
+      "call-to-action": "Para mayor información sobre Foco, por favor comuníquese con Jeanine Otte (jeanine.otte@elevateenergy.org)."
     },
     {
       "image": "project-icons/light-bulb.png",
-      "title": "Southeast Chicago Cooperative Businesses Partnership",
-      "primary-partner": "Project led by Centro de Trabajadores Unidos Immigrant Workers Project",
-      "other-partners": "In partnership with United Workers’ Center (CTU), Adelante Center for Entrepreneurship, John Marshall Law School and Chicago Food Policy Action Council.",
-      "description": "Offering a new 12-week business bootcamp on the Southeast Side of Chicago and South Suburbs that will provide comprehensive business development services for low-income, immigrant and Latinx-owned worker cooperatives. ",
+      "title": "Alianza Cooperativa para Negocios del Sureste de Chicago",
+      "primary-partner": "Proyecto liderado por el Proyecto de Trabajadores Inmigrantes del Centro de Trabajadores Unidos",
+      "other-partners": "en colaboración con el Centro de Trabajadores Unidos (CTU), Centro de Emprendimiento Adelante, La Facultad de Derecho de John Marshall y el Consejo de Acción Política sobre Alimentos de Chicago.",
+      "description": "Ofrece un nuevo programa de capacitación intensa (12 semanas) para negocios en el área sureste de Chicago y los suburbios del sur que proporcionará servicios integrales de desarrollo empresarial para cooperativas de trabajadores de bajos ingresos, inmigrantes y de propiedad latina.",
       "additional-description": "The Partnership aims to increase the number of immigrant and Latinx cooperative firms on the Southeast Side of Chicago and South Suburbs to address the unique needs, vulnerabilities and aspirations of low-income Latinx workers and support them in creating collective worker-run enterprises.",
-      "call-to-action": "For more information about Southeast Chicago Cooperative Business Partnership, contact Ava Tomasula Garcia at agarcia@ctu-iwp.org."
+      "call-to-action": "Para mayor información sobre la Alianza Cooperativa para Negocios del Sureste de Chicago, por favor comuníquese con Ava Tomasula García (agarcia@cty-iwp.org)."
     },
     {
       "image": "project-icons/light-bulb.png",
-      "title": "Franchise Initiative Training and Tracking 2.0",
-      "primary-partner": "Project led by Emerald South Economic Development Collaborative",
-      "other-partners": "In partnership with Far South Community Development Corporation, Chicago TREND, Sunshine Enterprises and Illinois Restaurant Association.",
-      "description": "Outlining the opportunity, process and level of commitment needed for local businesses on Chicago’s South Side to successfully launch and operate franchises.",
-      "additional-description": "This partnership is leveraging relationships with a range of franchise brands to gain and apply an understanding of their franchisee selection criteria and expectations to share with participating entrepreneurs of color. This program leverages Chicago Trends’ last year of work to recruit, develop and finance new franchise owners of color and help these entrepreneurs start businesses in communities of color with less risk, due to the power of franchise brands.",
-      "call-to-action": "For more information about Franchise Initiative Training and Tracking 2.0, contact Ghian Foreman at ghian.foreman@emeraldsouth.org."
+      "title": "Iniciativa para Formación y Monitoreo de Franquicias 2.0",
+      "primary-partner": "Proyecto liderado por Colaborativo de Desarrollo Económico Esmeralda Sur ",
+      "other-partners": "en colaboración con la Corporación de Desarrollo Comunitario del Lejano Sur, Chicago TREND, Empresas Sunshine y la Asociación de Restaurantes de Illinois. ",
+      "description": "Delinea la oportunidad, el proceso y el nivel de compromiso necesarios para lanzar y operar con éxito un negocio de franquicia para negocios locales en el área sur de Chicago. ",
+      "additional-description": "Esta alianza está aprovechando las relaciones con un grupo de franquicias para obtener y comprender sus criterios de selección de franquiciados y expectativas para transmitir a los empresarios de color participantes. Este programa amplía el trabajo de la empresa social Chicago TREND durante el último año para reclutar, desarrollar y financiar nuevos propietarios de color de franquicias y apoyar a estos empresarios a iniciar negocios en comunidades de color con menos riesgo basándose en el poder de las marcas de franquicias.",
+      "call-to-action": "Para mayor información sobre la Iniciativa para Formación y Monitoreo de Franquicias 2.0, por favor comuníquese con Ghian Foreman (ghian.foreman@emeraldsouth.org)."
     },
     {
       "image": "project-icons/light-bulb.png",
-      "title": "Coordinating Services to Support Chicago’s Entrepreneurs of Color",
-      "primary-partner": "Project led by Small Business Majority",
-      "other-partners": "In partnership with Rogers Park Business Alliance and Working Credit.",
-      "description": "Offering in-depth business education for local entrepreneurs of color. ",
-      "additional-description": "This partnership is working to increase the capacity and effectiveness of each organization, increasing entrepreneurs’ access to capital, business resources and credit-building strategies. Through this partnership, they will enhance an already successful business curriculum by integrating the three partners’ expertise.",
-      "call-to-action": "For more information about Coordinating Services to Support Chicago’s Entrepreneurs of Color, contact Geri Aglipay at gaglipay@smallbusinessmajority.org."
+      "title": "Coordinación de Servicios para Apoyar a Emprendedores de Color en Chicago",
+      "primary-partner": "Proyecto liderado por la Mayoría de Pequeñas Empresas ",
+      "other-partners": "en colaboración con la Alianza de Negocios en Rogers Park y la organización Working Credit. ",
+      "description": "Ofrece educación empresarial de profundidad para empresarios de color locales.",
+      "additional-description": "Esta alianza está trabajando para aumentar la capacidad y eficacia de cada organización, aumentando el acceso de los empresarios a capital, recursos y estrategias de creación de crédito. A través de esta alianza, se mejorará el curriculum empresarial ya exitoso al integrar la experiencia de las tres organizaciones.",
+      "call-to-action": "Para mayor información sobre la Coordinación de Servicios para Apoyar a Emprendedores de Color en Chicago, por favor comuníquese con Geri Aglipay (gaglipay@smallbusinessmajority.org)"
     },
     {
       "image": "project-icons/light-bulb.png",
-      "title": "A Model for Increasing the Pipeline of Minority Business Participation in Public Infrastructure",
-      "primary-partner": "Project led by Local Initiatives Support Corporation",
-      "other-partners": "In partnership with Chicago Transit Authority.",
-      "description": "Leveraging the Chicago Transit Authority’s Red/Purple Line modernization construction contract to lower barriers and increase participation success for business owners of color. ",
+      "title": "Modelo para Aumentar la Participación de Empresas Minoritarias en Infraestructura Pública",
+      "primary-partner": "Proyecto liderado por la Corporación de Apoyo para Iniciativas Locales (LISC) ",
+      "other-partners": "en colaboración con la Autoridad de Transporte de Chicago (CTA)",
+      "description": "Amplia el alcance de los contratos de construcción de las líneas de transporte Roja y Púrpura liderados por la Autoridad de Transporte de Chicago, reduce barreras y aumenta la participación de los propietarios de negocios de color. ",
       "additional-description": "This program is developing qualified bidders using LISC’s flexible capital, network of partners, CTA and the prime contractor to not only help the CTA meet its 20% minority business (DBE) requirement, but to ensure that smaller, often unsuccessful bidders are prepared and supported to compete for the various components of this three to five-year construction procurement process.",
-      "call-to-action": "For more information about A Model for Increasing the Pipeline of Minority Business Participation in Public Infrastructure, contact Caroline Rendon at ctrendon@lisc.org."
+      "call-to-action": "Para mayor información sobre el Modelo para Aumentar la Cartera de Participación de Empresas Minoritarias en Infraestructura Pública, por favor comun íquese con Caroline Rendon (ctrendon@lisc.org)."
     },
     {
       "image": "project-icons/light-bulb.png",
-      "title": "Expanding Minority Business Access (EMBA)—Connections, Contracts and Capital",
-      "primary-partner": "Project led by Women’s Business Development Center",
-      "other-partners": "In partnership with the Chicago Minority Supplier Development Council.",
-      "description": "Increasing exposure and opportunities for business owners of color. ",
+      "title": "Expansión de Acceso Empresarial Minoritario (EMBA) – Conexiones, Contratos y Capital",
+      "primary-partner": "Proyecto liderado por el Centro de Desarrollo de Negocios de Mujeres (WBDC)",
+      "other-partners": "en colaboración con el Consejo de Desarrollo de Proveedores Minoritarios de Chicago",
+      "description": "Aumenta la exposición a oportunidades de contratación y adquisición de los sectores público y privado para propietarios de negocios de color.",
       "additional-description": "This partnership has a three-part focus: advancing and deepening business development curriculum through a train-the-trainer curriculum for neighborhood business service organizations; expanding markets and mentorship networks; and increasing access to capital.",
-      "call-to-action": "For more information about Expanding Minority Business Access, contact Georgia Marsh at gmarsh@wbdc.org. "
+      "call-to-action": "Para mayor información sobre la Expansión de Acceso Empresarial Minoritario (EMBA) – Conexiones, Contratos y Capital, por favor comunicarse con Georgia Marsh (gmarsh@wbdc.org)"
     }
   ],
-  "language": "es",
-  "site-title-image": "images/title-homepage-eng.png",
-  "site-description": "Creating a marketplace of services for entrepreneurs of color in the Chicago region to close the racial and ethnic wealth gap and build a more just, equitable and resilient society.",
-  "site-additional-description": "A ,  The Coleman Foundation, JPMorgan Chase Foundation, Robert R. McCormick Foundation, Leslie Bluhm and David Helfand, Peter and Lucy Ascoli Family Fund, and the Liz and Don Thompson Family Fund.",
-  "expanded-stories": [
-    {
-      "description": " How can we address these systemic inequities? ",
-      "full-text": "In 2018, Next Street conducted research on Chicago’s small business landscape that revealed the following needs of businesses owned by women and people of color:\n\n* Improved business service delivery\n* Enhanced service options\n* Coordination among business service providers\n* Expanded access to business networks and capital\n\nWe believe **effective partnerships** between business support organizations are central to addressing these needs. The fund’s vision is to shape an equitable and coordinated marketplace of services for entrepreneurs of color throughout Chicago.",
-      "image": "images/notepad.png",
-      "alt-text": "An image of a notepad with a business development plan, a piggy bank with the word \"financing\", and direction errors with the words \"technical assistance\""
-    },
-    {
-      "description": " We awarded grants to 12 partnerships to expand their offerings to small businesses on the South and West sides. These grant recipients will work together in a learning cohort to begin to transform the small business ecosystem in Chicago. ",
-      "alt-text": "illustration of the content",
-      "full-text": "The partnerships in the fund provide 4 types of support:\n\n**New Business Models:**  Innovating and creating new business models.\n\n**New Markets:**  Cultivating growth in new business markets.\n\n**Curriculum Expansion:** Expanding business education into new locations with local partners.\n\n**Place-Based:** Developing businesses at the hyper-local level.",
-      "image": "images/map-2.png"
-    }
-  ],
+  "site-additional-description": "Una colaboración entre el Fideicomiso Comunitario de Chicago (Chicago Community Trust), la Fundación Coleman, la Fundación JPMorgan Chase, el Fondo de Leslie Bluhm y David Helfand, el Fondo de la Familia de Peter y Lucy Ascoli, y el Fondo de la Familia de Liz and Don Thompson.",
   "four-column-block": {
-    "description1": "the number of small businesses assisted throughout Chicago",
+    "description1": "número de pequeños negocios ayudados en todo Chicago",
     "image1": "images/arrow1.png",
-    "description2": "the number of entrepreneurs that start-up viable businesses",
+    "description2": "número de emprendedores que lanzan negocios viables",
     "image2": "images/arrow2.png",
-    "description3": "the number of quality jobs created and retained within the communities served",
+    "description3": "número de empleos de calidad creados y retenidos dentro de las comunidades atendidas",
     "image3": "images/arrow3.png",
-    "title": "As a result of this program, we anticipate an increase in:  ",
-    "description4": "the access entrepreneurs have to a trusted network of local small business professionals and community groups",
-    "call-to-action": "We invite you to join us in supporting this effort. To learn how to do so, contact Shandra Richardson, Program Manager, The Chicago Community Trust, at srichardson@cct.org.",
+    "title": "Como resultado de este programa, se anticipa un aumento en:",
+    "description4": "acceso para empresarios de color a una red confiable de profesionales locales de pequeñas empresas y grupos comunitarios",
+    "call-to-action": "Te invitamos a unirte a nosotros para apoyar este esfuerzo. Para conocer más, favor de comunicarse con Shandra Richardson, Gerente de Programa, Fideicomiso Comunitario de Chihuahua (The Chicago Community Trust), a través del correo electrónico srichardson@cct.org.",
     "image4": "images/arrow4.png"
   },
   "section-headers": {
     "section-title-1": "images/small-businesses-of-color.png",
     "section-title-2": "images/our-vision.png",
     "section-title-3": "images/explore-the-partnership-white.png"
-  }
+  },
+  "expanded-stories": [
+    {
+      "description": "¿Cómo podemos abordar estas inequidades sistémicas? ",
+      "full-text": "En 2018, Next Street realizó una investigación sobre el panorama de los pequeños negocios de Chicago que reveló las siguientes necesidades de propietarios de negocios que son mujeres y personas de color:\n\n* Mejorar la prestación de servicios comerciales\n* Brindar opciones de servicio mejorados\n* Coordinar entre proveedores de servicios empresariales\n* Proporcionar amplio acceso a redes de negocios y capital\n\nEstamos convencidos que para abordar estas necesidades es fundamental establecer **alianzas efectivas** entre las organizaciones de apoyo empresarial. La visión de este Fondo es conformar un mercado de servicios equitativo y coordinado para emprendedores de color en Chicago.",
+      "image": "images/notepad.png",
+      "alt-text": "An image of a notepad with a business development plan, a piggy bank with the word \"financing\", and direction errors with the words \"technical assistance\""
+    },
+    {
+      "description": "Hemos otorgado fondos a 12 alianzas para ampliar sus ofertas a pequeños negocios en las áreas sur y oeste de la ciudad. Estos beneficiarios de fondos trabajarán en colaboración en un modelo de aprendizaje en grupo para comenzar a transformar el ecosistema de pequeñas empresas en Chicago.",
+      "alt-text": "illustration of the content",
+      "full-text": "Las alianzas apoyadas por este Fondo se pueden resumir en 4 tipos:\n\n**Nuevos Modelos de Negocio:** Alianzas que desarrollan y replican nuevos modelos de negocio.\n\n**Nuevos Mercados:** Alianzas que cultivan el crecimiento en nuevos mercados comerciales.\n\n**Expansión del Plan de Estudios:** Alianzas que amplían la educación empresarial en nuevas ubicaciones con asociaciones locales.\n\n**Específicos de Sitio:** Alianzas dirigidas al desarrollo de negocios hiperlocales.",
+      "image": "images/map-2.png"
+    }
+  ]
 }

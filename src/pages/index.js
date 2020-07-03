@@ -34,7 +34,6 @@ const IndexPage = ({ data, pageContext }) => {
         <SEO title="Home" />
 
         <Language />
-        <Link to="/es">Spanish</Link>
         <Header
           image={data.contentJson.site_title_image.childImageSharp.fluid}
         />
