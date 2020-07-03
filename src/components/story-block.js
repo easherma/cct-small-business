@@ -14,11 +14,16 @@ const StoryBlock = ({
   imageRight = false,
   bigText = false,
 }) => (
-  <section>
+  <section
+    data-sal="fade"
+    data-sal-delay="300"
+    data-sal-duration="800"
+    data-sal-easing="ease"
+  >
     <Container
       className={
         bigText
-          ? 'story-block-text story-block-big-text my-1'
+          ? 'story-block-text story-block-big-text mb-1'
           : 'story-block-text mb-5 mt-2'
       }
     >
