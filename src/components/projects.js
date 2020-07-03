@@ -2,7 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Card from 'react-bootstrap/Card'
 import Project from './project'
-import { useIntl, FormattedMessage } from 'gatsby-plugin-intl'
+import { useIntl } from 'gatsby-plugin-intl'
 
 const Projects = () => {
   const projectsQuery = useStaticQuery(graphql`
