@@ -2,6 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Card from 'react-bootstrap/Card'
 import Project from './project'
+import { useIntl, FormattedMessage } from 'gatsby-plugin-intl'
 
 const Projects = () => {
   const projectsQuery = useStaticQuery(graphql`
@@ -25,7 +26,9 @@ const Projects = () => {
       }
     }
   `)
+  const intl = useIntl()
   const projectsData = projectsQuery.contentJson.projects
+
   return (
     <div className="partners-container">
       {projectsData.map((node, index) => (
@@ -34,7 +37,9 @@ const Projects = () => {
           title={node.title}
           primaryPartner={node.primary_partner}
           otherPartners={node.other_partners}
-          description={node.description}
+          description={intl.formatMessage({
+            id: `projects.${index}.description`,
+          })}
           additionalDescription={node.additional_description}
           callToAction={node.call_to_action}
           key={index}
