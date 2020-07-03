@@ -21,6 +21,7 @@ import Header from '../components/header'
 import Language from '../components/language'
 
 import LineSvg from '../components/line'
+import Container from 'react-bootstrap/Container'
 
 const IndexPage = ({ data, pageContext }) => {
   const intl = useIntl()
@@ -29,28 +30,34 @@ const IndexPage = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <Container>
+        <SEO title="Home" />
 
-      <Language />
-      <Link to="/es">Spanish</Link>
-      <Header image={data.contentJson.site_title_image.childImageSharp.fluid} />
-      <LineSvg />
+        <Language />
+        <Link to="/es">Spanish</Link>
+        <Header
+          image={data.contentJson.site_title_image.childImageSharp.fluid}
+        />
+        <LineSvg />
 
-      <SectionHeader
-        imageSource={
-          data.contentJson.section_headers.section_title_1.childImageSharp.fluid
-        }
-        altText="Small Businesses of Color"
-      />
-      <StoryBlocks />
-      <SectionHeader
-        imageSource={
-          data.contentJson.section_headers.section_title_2.childImageSharp.fluid
-        }
-        altText="Our Vision"
-      />
-      <OurVisionStoryBlocks />
-      <FourColumnBlock />
+        <SectionHeader
+          imageSource={
+            data.contentJson.section_headers.section_title_1.childImageSharp
+              .fluid
+          }
+          altText="Small Businesses of Color"
+        />
+        <StoryBlocks />
+        <SectionHeader
+          imageSource={
+            data.contentJson.section_headers.section_title_2.childImageSharp
+              .fluid
+          }
+          altText="Our Vision"
+        />
+        <OurVisionStoryBlocks />
+        <FourColumnBlock />
+      </Container>
       <div className="partners-section-header">
         <SectionHeader
           imageSource={
@@ -60,7 +67,9 @@ const IndexPage = ({ data, pageContext }) => {
           altText="Explore The Partnerships"
         />
       </div>
-      <Projects />
+      <div className="partners-section">
+        <Projects />
+      </div>
     </Layout>
   )
 }

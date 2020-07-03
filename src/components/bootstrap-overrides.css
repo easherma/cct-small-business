@@ -21,13 +21,18 @@
 .partners-section-header {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #2cd0af 32.08%),
     #ffffff;
+  max-width: 100%;
+}
+.partners-section {
+  max-width: 100% !important;
+  background-color: #2cd0af;
 }
 .partners-container {
   background-color: #2cd0af;
 }
 .partners {
   text-align: left;
-  width: 520px;
+  max-width: 520px;
   border: none;
   background-color: #2cd0af;
 }
@@ -113,7 +118,14 @@ section:last-child {
 #svg {
   position: absolute;
   z-index: -1;
+  max-width: 1140px;
+  margin: 0 auto;
 }
+
+/* main {
+  max-width: 1152px;
+  margin: 0 auto; 
+} */
 /* 
 #svg {
   position: fixed;
