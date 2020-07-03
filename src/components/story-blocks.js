@@ -2,6 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Card from 'react-bootstrap/Card'
 import StoryBlock from './story-block'
+import { useIntl } from 'gatsby-plugin-intl'
 
 const StoryBlocks = () => {
   const storysQuery = useStaticQuery(graphql`
@@ -23,6 +24,7 @@ const StoryBlocks = () => {
       }
     }
   `)
+  const intl = useIntl()
   const storyData = storysQuery.contentJson.stories
   return (
     <div className="last-child-margin">
@@ -31,7 +33,9 @@ const StoryBlocks = () => {
           bigText={true}
           imageSource={node.image.childImageSharp.fluid}
           altText={node.altText && node.altText}
-          description={node.description && node.description}
+          description={intl.formatMessage({
+            id: `story-blocks.${index}.description`,
+          })}
           imageRight={index % 2 ? true : false}
           key={index}
         />

@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Img from 'gatsby-image'
+import { useIntl } from 'gatsby-plugin-intl'
 
 import { useStaticQuery, graphql } from 'gatsby'
 
@@ -50,7 +51,9 @@ const FourColumnBlock = () => {
       }
     }
   `)
+  const intl = useIntl()
   const blockData = data.contentJson.four_column_block
+
   return (
     <Container>
       <p className="lead text-center font-weight-bold">{blockData.title}</p>

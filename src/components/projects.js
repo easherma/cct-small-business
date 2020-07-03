@@ -34,12 +34,14 @@ const Projects = () => {
       {projectsData.map((node, index) => (
         <Project
           image={node.image.childImageSharp.fluid}
-          title={node.title}
+          title={intl.formatMessage({ id: `projects.${index}.description` })}
+          // title={node.title}
           primaryPartner={node.primary_partner}
           otherPartners={node.other_partners}
-          description={intl.formatMessage({
-            id: `projects.${index}.description`,
-          })}
+          description={node.description}
+          // description={intl.formatMessage({
+          //   id: `projects.${index}.description`,
+          // })}
           additionalDescription={node.additional_description}
           callToAction={node.call_to_action}
           key={index}
