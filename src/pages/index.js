@@ -21,6 +21,7 @@ import Header from '../components/header'
 import Language from '../components/language'
 
 import LineSvg from '../components/line'
+import LinePng from '../components/linePng'
 import Container from 'react-bootstrap/Container'
 
 const IndexPage = ({ data, pageContext }) => {
@@ -30,39 +31,44 @@ const IndexPage = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <LineSvg />
       <SEO title="Home" />
       <Language />
       <Header image={data.contentJson.site_title_image.childImageSharp.fluid} />
+      <Container className="imgPng"></Container>
 
-      <SectionHeader
-        imageSource={
-          data.contentJson.section_headers.section_title_1.childImageSharp.fluid
-        }
-        altText="Small Businesses of Color"
-      />
-      <StoryBlocks />
-      <SectionHeader
-        imageSource={
-          data.contentJson.section_headers.section_title_2.childImageSharp.fluid
-        }
-        altText="Our Vision"
-      />
-      <OurVisionStoryBlocks />
-      <FourColumnBlock />
-
-      <div className="partners-section-header">
+      <Container className="content">
+        <LinePng />
         <SectionHeader
           imageSource={
-            data.contentJson.section_headers.section_title_3.childImageSharp
+            data.contentJson.section_headers.section_title_1.childImageSharp
               .fluid
           }
-          altText="Explore The Partnerships"
+          altText="Small Businesses of Color"
         />
-      </div>
-      <div className="partners-section">
-        <Projects />
-      </div>
+        <StoryBlocks />
+        <SectionHeader
+          imageSource={
+            data.contentJson.section_headers.section_title_2.childImageSharp
+              .fluid
+          }
+          altText="Our Vision"
+        />
+        <OurVisionStoryBlocks />
+        <FourColumnBlock />
+
+        <div className="partners-section-header">
+          <SectionHeader
+            imageSource={
+              data.contentJson.section_headers.section_title_3.childImageSharp
+                .fluid
+            }
+            altText="Explore The Partnerships"
+          />
+        </div>
+        <div className="partners-section">
+          <Projects />
+        </div>
+      </Container>
     </Layout>
   )
 }

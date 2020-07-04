@@ -123,6 +123,21 @@ section:last-child {
   max-width: 100%;
 }
 
+/* .imgPng {
+  position: absolute;
+  z-index: 0;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+} */
+
+.linePngContainer {
+  background-image: url(../content/images/Vector.png);
+  background-position: center;
+  width: 700px;
+  height: 400px;
+}
+
 /* 
 #svg {
   position: fixed;
@@ -132,3 +147,27 @@ section:last-child {
   height: 150px;
   margin: -75px 0 0 -75px;
 } */
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+.bg {
+  position: absolute;
+  z-index: 2;
+  height: 18946px;
+}
+
+.bgimg {
+  height: 100%;
+  max-width: 1140px;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
