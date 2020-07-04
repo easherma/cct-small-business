@@ -30,11 +30,10 @@ const IndexPage = ({ data, pageContext }) => {
 
   return (
     <Layout>
+      <LineSvg />
       <SEO title="Home" />
-
       <Language />
       <Header image={data.contentJson.site_title_image.childImageSharp.fluid} />
-      <LineSvg />
 
       <SectionHeader
         imageSource={
