@@ -117,10 +117,10 @@ section:last-child {
 
 #svg {
   position: absolute;
-  z-index: -1;
-  max-width: 1140px;
+  z-index: 0;
+  width: 1148px;
+  height: 14873;
   margin: 0 auto;
-  display: none;
 }
 
 /* 
