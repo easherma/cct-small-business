@@ -120,6 +120,7 @@ section:last-child {
   z-index: -1;
   max-width: 1140px;
   margin: 0 auto;
+  display: none;
 }
 
 /* 

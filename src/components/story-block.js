@@ -13,6 +13,7 @@ const StoryBlock = ({
   fullText,
   imageRight = false,
   bigText = false,
+  lastElement = false,
 }) => (
   <section
     data-sal="fade"
@@ -35,7 +36,9 @@ const StoryBlock = ({
           <Img fluid={imageSource} alt={altText} />
         </Col>
         <Col className="align-self-center" sm={6}>
-          <p className="font-weight-bold">{description}</p>
+          <p className={`font-weight-bold ${lastElement ? 'pl-5' : ''}`}>
+            {description}
+          </p>
           <div className="pb-5">
             <ReactMarkdown source={fullText} />
           </div>

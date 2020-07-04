@@ -34,11 +34,13 @@ const Header = ({ image }) => {
             className="img-responsive"
             alt="The Fund for Equitable Business Growth"
           />
-          <h1 className="lead">
+          <h1 className="lead mr-5 ml-4">
             {intl.formatMessage({ id: 'site-description' })}
           </h1>
 
-          <p>{intl.formatMessage({ id: 'site-additional-description' })}</p>
+          <p className="mr-5 ml-4">
+            {intl.formatMessage({ id: 'site-additional-description' })}
+          </p>
         </div>
       </Container>
     </header>
