@@ -8,7 +8,7 @@ import Vector from '../content/images/Vector.png'
 const LinePng = () => {
   return (
     <Container className="bg">
-      <Image className="bgimg" src={Vector} />
+      <Image className="bgimg object-fit-cover" src={Vector} />
     </Container>
   )
 }
