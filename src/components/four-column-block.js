@@ -52,56 +52,95 @@ const FourColumnBlock = () => {
   `)
   const blockData = data.contentJson.four_column_block
   return (
-    <Container>
-      <p className="lead text-center font-weight-bold">{blockData.title}</p>
+    <article
+      data-sal="fade"
+      data-sal-delay="300"
+      data-sal-duration="800"
+      data-sal-easing="ease"
+    >
+      <Container>
+        <p className="lead text-center font-weight-bold">{blockData.title}</p>
 
-      <Row>
-        <Col sm={3}>
-          <Card>
-            <Img fluid={blockData.image1.childImageSharp.fluid} alt="arrow1" />
-            <Card.Body>
-              <Card.Text className="font-weight-bold">
-                {blockData.description1}
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
+        <Row>
+          <Col sm={3}>
+            <Card
+              data-sal="fade"
+              data-sal-delay="500"
+              data-sal-duration="900"
+              data-sal-easing="ease"
+            >
+              <Img
+                fluid={blockData.image1.childImageSharp.fluid}
+                alt="arrow1"
+              />
+              <Card.Body>
+                <Card.Text className="font-weight-bold">
+                  {blockData.description1}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
 
-        <Col sm={3}>
-          <Card>
-            <Img fluid={blockData.image2.childImageSharp.fluid} alt="arrow2" />
-            <Card.Body>
-              <Card.Text className="font-weight-bold">
-                {blockData.description2}
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
+          <Col sm={3}>
+            <Card
+              data-sal="fade"
+              data-sal-delay="600"
+              data-sal-duration="1000"
+              data-sal-easing="ease"
+            >
+              <Img
+                fluid={blockData.image2.childImageSharp.fluid}
+                alt="arrow2"
+              />
+              <Card.Body>
+                <Card.Text className="font-weight-bold">
+                  {blockData.description2}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
 
-        <Col sm={3}>
-          <Card>
-            <Img fluid={blockData.image3.childImageSharp.fluid} alt="arrow3" />
-            <Card.Body>
-              <Card.Text className="font-weight-bold">
-                {blockData.description3}
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
+          <Col sm={3}>
+            <Card
+              data-sal="fade"
+              data-sal-delay="800"
+              data-sal-duration="1100"
+              data-sal-easing="ease"
+            >
+              <Img
+                fluid={blockData.image3.childImageSharp.fluid}
+                alt="arrow3"
+              />
+              <Card.Body>
+                <Card.Text className="font-weight-bold">
+                  {blockData.description3}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
 
-        <Col sm={3}>
-          <Card>
-            <Img fluid={blockData.image4.childImageSharp.fluid} alt="arrow4" />
-            <Card.Body>
-              <Card.Text className="font-weight-bold">
-                {blockData.description4}
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-      <p className="text-center">{blockData.call_to_action}</p>
-    </Container>
+          <Col sm={3}>
+            <Card
+              data-sal="fade"
+              data-sal-delay="1000"
+              data-sal-duration="1200"
+              data-sal-easing="ease"
+            >
+              <Img
+                fluid={blockData.image4.childImageSharp.fluid}
+                alt="arrow4"
+              />
+              <Card.Body>
+                <Card.Text className="font-weight-bold">
+                  {blockData.description4}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <p className="text-center">{blockData.call_to_action}</p>
+      </Container>
+    </article>
   )
 }
 
