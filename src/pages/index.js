@@ -30,33 +30,28 @@ const IndexPage = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <Container>
-        <SEO title="Home" />
+      <SEO title="Home" />
 
-        <Language />
-        <Header
-          image={data.contentJson.site_title_image.childImageSharp.fluid}
-        />
-        <LineSvg />
+      <Language />
+      <Header image={data.contentJson.site_title_image.childImageSharp.fluid} />
+      <LineSvg />
 
-        <SectionHeader
-          imageSource={
-            data.contentJson.section_headers.section_title_1.childImageSharp
-              .fluid
-          }
-          altText="Small Businesses of Color"
-        />
-        <StoryBlocks />
-        <SectionHeader
-          imageSource={
-            data.contentJson.section_headers.section_title_2.childImageSharp
-              .fluid
-          }
-          altText="Our Vision"
-        />
-        <OurVisionStoryBlocks />
-        <FourColumnBlock />
-      </Container>
+      <SectionHeader
+        imageSource={
+          data.contentJson.section_headers.section_title_1.childImageSharp.fluid
+        }
+        altText="Small Businesses of Color"
+      />
+      <StoryBlocks />
+      <SectionHeader
+        imageSource={
+          data.contentJson.section_headers.section_title_2.childImageSharp.fluid
+        }
+        altText="Our Vision"
+      />
+      <OurVisionStoryBlocks />
+      <FourColumnBlock />
+
       <div className="partners-section-header">
         <SectionHeader
           imageSource={

@@ -35,11 +35,10 @@ const LineSvg = () => {
   return (
     <svg
       id="svg"
-      width="1148"
-      height="14873"
+      width="1480"
+      height="auto"
       viewBox="0 0 1148 14873"
       fill="none"
-      preserveAspectRatio="xMidYMid slice"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

@@ -118,8 +118,7 @@ section:last-child {
 #svg {
   position: absolute;
   z-index: 0;
-  width: 1148px;
-  height: 14873;
+  height: auto;
   margin: 0 auto;
 }
 
