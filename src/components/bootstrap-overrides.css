@@ -34,10 +34,10 @@
   text-align: left;
   max-width: 520px;
   border: none;
-  background-color: #2cd0af;
+  background: none;
 }
 .partners-card {
-  background-color: #2cd0af;
+  background: none;
   color: white;
   text-align: left;
 }

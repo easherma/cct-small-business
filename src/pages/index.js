@@ -22,6 +22,7 @@ import Language from '../components/language'
 
 import LineSvg from '../components/line'
 import Container from 'react-bootstrap/Container'
+import Col from 'react-bootstrap/Col'
 
 const IndexPage = ({ data, pageContext }) => {
   const intl = useIntl()
@@ -30,11 +31,10 @@ const IndexPage = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <LineSvg />
       <SEO title="Home" />
       <Language />
       <Header image={data.contentJson.site_title_image.childImageSharp.fluid} />
-
+      <LineSvg />
       <SectionHeader
         imageSource={
           data.contentJson.section_headers.section_title_1.childImageSharp.fluid
