@@ -34,7 +34,7 @@ const OurVisionStoryBlocks = () => {
           imageSource={node.image.childImageSharp.fluid}
           altText={node.altText && node.altText}
           description={intl.formatMessage({
-            id: `our-vision-story-block.${index}.expanded-stories`,
+            id: `expanded-stories.${index}.description`,
           })}
           fullText={node.full_text && node.full_text}
           imageRight={index % 2 ? false : true}
