@@ -1,5 +1,5 @@
 {
-  "site-title-image": "images/title-homepage-eng.png",
+  "site-title-image": "images/title-homepage-spa.png",
   "stories": [
     {
       "full-text": "",
@@ -11,18 +11,18 @@
       "full-text": "",
       "imageRight": false,
       "description": "A pesar de su visión, tenacidad y compromiso, los empresarios de color enfrentan barreras significativas para el éxito. ",
-      "image": "images/barriers.png",
+      "image": "images/barriers-spa.png",
       "alt-text": "a light bulb"
     },
     {
       "description": "Los negocios de propietarios negros y latinos combinados comprenden sólo el 8% del número total de pequeñas empresas.",
       "full-text": "",
-      "image": "images/data-2.png"
+      "image": "images/data2-spa.png"
     },
     {
       "description": "El negocio promedio de propietarios blancos se valora en más de 12 veces que el negocio promedio de propietario negro.",
       "full-text": "",
-      "image": "images/data-3b.png"
+      "image": "images/data3b-spa.png"
     },
     {
       "description": "Las pequeñas empresas en Englewood (94% población negra) operan con menos de una semana de reservas de efectivo en sus cuentas de depósito bancarias, en comparación con 17 días en el caso de los negocios en Buena Park (Uptown, 54% población blanca) – tres veces más liquidez en efectivo.",
@@ -156,15 +156,15 @@
     "image4": "images/arrow4.png"
   },
   "section-headers": {
-    "section-title-1": "images/small-businesses-of-color.png",
-    "section-title-2": "images/our-vision.png",
-    "section-title-3": "images/explore-the-partnership-white.png"
+    "section-title-1": "images/esp-small-businesses-of-color.png",
+    "section-title-2": "images/esp-our-vision.png",
+    "section-title-3": "images/esp-explore-the-partnerships.png"
   },
   "expanded-stories": [
     {
       "description": "¿Cómo podemos abordar estas inequidades sistémicas? ",
       "full-text": "En 2018, Next Street realizó una investigación sobre el panorama de los pequeños negocios de Chicago que reveló las siguientes necesidades de propietarios de negocios que son mujeres y personas de color:\n\n* Mejorar la prestación de servicios comerciales\n* Brindar opciones de servicio mejorados\n* Coordinar entre proveedores de servicios empresariales\n* Proporcionar amplio acceso a redes de negocios y capital\n\nEstamos convencidos que para abordar estas necesidades es fundamental establecer **alianzas efectivas** entre las organizaciones de apoyo empresarial. La visión de este Fondo es conformar un mercado de servicios equitativo y coordinado para emprendedores de color en Chicago.",
-      "image": "images/notepad.png",
+      "image": "images/notepad-spa.png",
       "alt-text": "An image of a notepad with a business development plan, a piggy bank with the word \"financing\", and direction errors with the words \"technical assistance\""
     },
     {
