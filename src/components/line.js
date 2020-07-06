@@ -22,7 +22,7 @@ const LineSvg = () => {
       let drawLength = pathLength * scrollPercentage
 
       // Draw in reverse
-      path.style.strokeDashoffset = pathLength - drawLength + topPosition / 4
+      path.style.strokeDashoffset = pathLength - drawLength + topPosition / 3
     }
 
     window.addEventListener('scroll', onScroll)
@@ -37,9 +37,10 @@ const LineSvg = () => {
       <svg
         id="svg"
         width="100%"
-        height="20000"
+        height="18900"
         viewBox="0 0 1148 15832"
         preserveAspectRatio="xMidYMin meet"
+        overflow="hidden"
         className="svg-content"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

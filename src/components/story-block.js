@@ -33,13 +33,13 @@ const StoryBlock = ({
           className="align-middle"
           sm={{ span: '6', order: `${imageRight ? 'last' : 'first'} ` }}
         >
-          <Img fluid={imageSource} alt={altText} />
+          <Img className="storyimage" fluid={imageSource} alt={altText} />
         </Col>
         <Col className="align-self-center" sm={6}>
           <p className={`font-weight-bold ${lastElement ? 'pl-5' : ''}`}>
             {description}
           </p>
-          <div className="pb-5">
+          <div className="pb-5 radius">
             <ReactMarkdown source={fullText} />
           </div>
         </Col>
