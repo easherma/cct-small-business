@@ -64,7 +64,7 @@ const FourColumnBlock = () => {
             <Img fluid={blockData.image1.childImageSharp.fluid} alt="arrow1" />
             <Card.Body>
               <Card.Text className="font-weight-bold">
-                {blockData.description1}
+                {intl.formatMessage({ id: `four-column-block.description1`, })}
               </Card.Text>
             </Card.Body>
           </Card>
@@ -75,7 +75,7 @@ const FourColumnBlock = () => {
             <Img fluid={blockData.image2.childImageSharp.fluid} alt="arrow2" />
             <Card.Body>
               <Card.Text className="font-weight-bold">
-                {blockData.description2}
+                {intl.formatMessage({ id: `four-column-block.description2`, })}
               </Card.Text>
             </Card.Body>
           </Card>
@@ -86,7 +86,7 @@ const FourColumnBlock = () => {
             <Img fluid={blockData.image3.childImageSharp.fluid} alt="arrow3" />
             <Card.Body>
               <Card.Text className="font-weight-bold">
-                {blockData.description3}
+                {intl.formatMessage({ id: `four-column-block.description3`, })}
               </Card.Text>
             </Card.Body>
           </Card>
@@ -97,7 +97,7 @@ const FourColumnBlock = () => {
             <Img fluid={blockData.image4.childImageSharp.fluid} alt="arrow4" />
             <Card.Body>
               <Card.Text className="font-weight-bold">
-                {blockData.description4}
+                {intl.formatMessage({ id: `four-column-block.description4`, })}
               </Card.Text>
             </Card.Body>
           </Card>

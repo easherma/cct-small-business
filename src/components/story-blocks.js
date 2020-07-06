@@ -34,7 +34,7 @@ const StoryBlocks = () => {
           imageSource={node.image.childImageSharp.fluid}
           altText={node.altText && node.altText}
           description={intl.formatMessage({
-            id: `story-blocks.${index}.description`,
+            id: `story-blocks.${index}.stories`,
           })}
           imageRight={index % 2 ? true : false}
           key={index}
