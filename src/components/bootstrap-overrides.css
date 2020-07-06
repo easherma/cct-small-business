@@ -20,15 +20,12 @@
 }
 .partners-section-header {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #2cd0af 32.08%),
-    #ffffff;
-  max-width: 100%;
+    #ffffff00;
+
   position: relative;
   z-index: 0;
 }
 .partners-section {
-  max-width: 100% !important;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #2cd0af 32.08%),
-    #ffffff;
   position: relative;
   z-index: -1;
 }
