@@ -36,7 +36,9 @@ const OurVisionStoryBlocks = () => {
           description={intl.formatMessage({
             id: `expanded-stories.${index}.description`,
           })}
-          fullText={node.full_text && node.full_text}
+          fullText={intl.formatMessage({
+            id: `expanded-stories.${index}.full-text`,
+          })}
           imageRight={index % 2 ? false : true}
           key={index}
         />
