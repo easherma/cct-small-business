@@ -132,3 +132,13 @@ section:last-child {
   height: 150px;
   margin: -75px 0 0 -75px;
 } */
+
+/* On screens that are 992px or less, set the background color to blue */
+/* @media screen and (max-width: 768px) {
+  #svg {
+    display: none;
+  }
+  #svg-mobile {
+    display: initial;
+  }
+} */

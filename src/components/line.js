@@ -6,24 +6,23 @@ const LineSvg = () => {
   // textInput must be declared here so the ref can refer to it
   const linePath = useRef(null)
   useLayoutEffect(() => {
-    const topPosition = linePath.current.getBoundingClientRect().top
     const path = linePath.current
     const pathLength = path.getTotalLength()
     path.style.strokeDasharray = pathLength
-    // path.style.strokeDashoffset = pathLength
+    path.style.strokeDashoffset = pathLength
     const onScroll = () => {
+      const topPosition = linePath.current.getBoundingClientRect().top
       // What % down is it?
       let scrollPercentage =
         (document.documentElement.scrollTop + document.body.scrollTop) /
-          (document.documentElement.scrollHeight -
-            document.documentElement.clientHeight) +
-        10
+        (document.documentElement.scrollHeight -
+          document.documentElement.clientHeight)
 
       // Length to offset the dashes
       let drawLength = pathLength * scrollPercentage
 
       // Draw in reverse
-      path.style.strokeDashoffset = pathLength - drawLength
+      path.style.strokeDashoffset = pathLength - drawLength + topPosition / 4
     }
 
     window.addEventListener('scroll', onScroll)
@@ -34,13 +33,13 @@ const LineSvg = () => {
     */
   }, [])
   return (
-    <div className="svg-container ">
+    <div className="svg-container">
       <svg
         id="svg"
-        width="1148"
-        height="15832"
+        width="100%"
+        height="20000"
         viewBox="0 0 1148 15832"
-        preserveAspectRatio="xMinyMin meet"
+        preserveAspectRatio="xMidYMin meet"
         className="svg-content"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

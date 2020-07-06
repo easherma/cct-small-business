@@ -59,7 +59,13 @@ const FourColumnBlock = () => {
       data-sal-easing="ease"
     >
       <Container>
-        <p className="lead text-center font-weight-bold">{blockData.title}</p>
+        <Row>
+          <Col>
+            <p className="lead text-center font-weight-bold">
+              {blockData.title}
+            </p>
+          </Col>
+        </Row>
 
         <Row>
           <Col sm={3}>
