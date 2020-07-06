@@ -37,6 +37,7 @@ const StoryBlocks = () => {
             id: `stories.${index}.description`,
           })}
           imageRight={index % 2 ? true : false}
+          lastElement={storyData[index + 1] === undefined ? true : false}
           key={index}
         />
       ))}

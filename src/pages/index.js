@@ -20,6 +20,10 @@ import {
 import Header from '../components/header'
 import Language from '../components/language'
 
+import LineSvg from '../components/line'
+import Container from 'react-bootstrap/Container'
+import Col from 'react-bootstrap/Col'
+
 const IndexPage = ({ data, pageContext }) => {
   const intl = useIntl()
   // just the images for section headers need to be here
@@ -28,10 +32,9 @@ const IndexPage = ({ data, pageContext }) => {
   return (
     <Layout>
       <SEO title="Home" />
-
       <Language />
       <Header image={data.contentJson.site_title_image.childImageSharp.fluid} />
-
+      <LineSvg />
       <SectionHeader
         imageSource={
           data.contentJson.section_headers.section_title_1.childImageSharp.fluid
@@ -47,6 +50,7 @@ const IndexPage = ({ data, pageContext }) => {
       />
       <OurVisionStoryBlocks />
       <FourColumnBlock />
+
       <div className="partners-section-header">
         <SectionHeader
           imageSource={
@@ -56,7 +60,9 @@ const IndexPage = ({ data, pageContext }) => {
           altText="Explore The Partnerships"
         />
       </div>
-      <Projects />
+      <div className="partners-section">
+        <Projects />
+      </div>
     </Layout>
   )
 }
