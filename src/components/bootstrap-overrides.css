@@ -34,12 +34,13 @@
   text-align: left;
   max-width: 520px;
   border: none;
-  background: none;
+  background-color: #2cd0af;
 }
 .partners-card {
   background: none;
   color: white;
   text-align: left;
+  background-color: #2cd0af;
 }
 .partners-image {
   position: absolute;
@@ -118,9 +119,8 @@ section:last-child {
 #svg {
   position: absolute;
   z-index: 0;
-  height: auto;
-  margin: 0 auto;
-  max-width: 100%;
+  left: 0;
+  right: 0;
 }
 
 /* 
