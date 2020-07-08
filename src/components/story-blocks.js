@@ -1,6 +1,4 @@
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
-import Card from 'react-bootstrap/Card'
 import StoryBlock from './story-block'
 import { useIntl } from 'gatsby-plugin-intl'
 
