@@ -5,18 +5,12 @@ import Layout from '../components/layout'
 import SectionHeader from '../components/section-header'
 
 import FourColumnBlock from '../components/four-column-block'
-import Button from 'react-bootstrap/Button'
 
 import Projects from '../components/projects'
-import StoryBlock from '../components/story-block'
+
 import StoryBlocks from '../components/story-blocks'
 import OurVisionStoryBlocks from '../components/our-vision-story-blocks'
-import {
-  useIntl,
-  Link,
-  FormattedMessage,
-  changeLocale,
-} from 'gatsby-plugin-intl'
+import { useIntl } from 'gatsby-plugin-intl'
 import Header from '../components/header'
 import Language from '../components/language'
 
@@ -41,7 +35,7 @@ const IndexPage = ({ data, pageContext }) => {
         }
         altText="Small Businesses of Color"
       />
-      <StoryBlocks />
+      <StoryBlocks data={data.contentJson.stories} />
       <SectionHeader
         imageSource={
           data.contentJson.section_headers.section_title_2.childImageSharp.fluid
@@ -68,7 +62,7 @@ const IndexPage = ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-  query siteImages($language: String) {
+  query siteData($language: String) {
     contentJson(language: { eq: $language }) {
       site_title_image {
         id
@@ -95,6 +89,18 @@ export const query = graphql`
           }
         }
         section_title_3 {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+      }
+      stories {
+        full_text
+        description
+        alt_text
+        image {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG

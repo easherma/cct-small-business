@@ -4,28 +4,9 @@ import Card from 'react-bootstrap/Card'
 import StoryBlock from './story-block'
 import { useIntl } from 'gatsby-plugin-intl'
 
-const StoryBlocks = () => {
-  const storysQuery = useStaticQuery(graphql`
-    {
-      contentJson {
-        id
-        stories {
-          full_text
-          description
-          alt_text
-          image {
-            childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
-              }
-            }
-          }
-        }
-      }
-    }
-  `)
+const StoryBlocks = ({ data }) => {
   const intl = useIntl()
-  const storyData = storysQuery.contentJson.stories
+  const storyData = data
   return (
     <div className="last-child-margin">
       {storyData.map((node, index) => (
