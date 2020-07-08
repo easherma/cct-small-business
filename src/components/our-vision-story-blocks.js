@@ -1,8 +1,7 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import Card from 'react-bootstrap/Card'
 import StoryBlock from './story-block'
-import Container from 'react-bootstrap/Container'
+
 import { useIntl } from 'gatsby-plugin-intl'
 
 const OurVisionStoryBlocks = () => {
@@ -42,9 +41,8 @@ const OurVisionStoryBlocks = () => {
           imageRight={index % 2 ? false : true}
           key={index}
         />
-      ))
-      }
-    </div >
+      ))}
+    </div>
   )
 }
 

@@ -1,7 +1,5 @@
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
-import Image from 'react-bootstrap/Image'
+
 import Container from 'react-bootstrap/Container'
 import Img from 'gatsby-image'
 

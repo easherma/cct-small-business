@@ -1,6 +1,5 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import Card from 'react-bootstrap/Card'
 import Project from './project'
 import { useIntl } from 'gatsby-plugin-intl'
 
@@ -35,7 +34,7 @@ const Projects = () => {
         <Project
           image={node.image.childImageSharp.fluid}
           title={intl.formatMessage({
-            id: `projects.${index}.title`
+            id: `projects.${index}.title`,
           })}
           primaryPartner={intl.formatMessage({
             id: `projects.${index}.primary-partner`,

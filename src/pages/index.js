@@ -10,19 +10,12 @@ import Projects from '../components/projects'
 
 import StoryBlocks from '../components/story-blocks'
 import OurVisionStoryBlocks from '../components/our-vision-story-blocks'
-import { useIntl } from 'gatsby-plugin-intl'
 import Header from '../components/header'
 import Language from '../components/language'
 
 import LineSvg from '../components/line'
-import Container from 'react-bootstrap/Container'
-import Col from 'react-bootstrap/Col'
 
 const IndexPage = ({ data, pageContext }) => {
-  const intl = useIntl()
-  // just the images for section headers need to be here
-  const locale = pageContext.language
-
   return (
     <Layout>
       <SEO title="Home" />
