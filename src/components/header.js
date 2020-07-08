@@ -4,8 +4,8 @@ import React from 'react'
 import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container'
 import Img from 'gatsby-image'
-
 import { useIntl, FormattedMessage } from 'gatsby-plugin-intl'
+
 
 const Header = ({ image }) => {
   const intl = useIntl()
