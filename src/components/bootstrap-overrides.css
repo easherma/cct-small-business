@@ -2,6 +2,7 @@
 
 .card {
   border: none;
+  background-color: #ffffffb8;
 }
 
 .language-switcher {
@@ -144,17 +145,6 @@ section:last-child {
     display: initial;
   }
 } */
-
-.font-weight-bold {
-  /* background-color: white;
-
-  border-radius: 40%; */
-}
-
-.radius {
-  /* background-color: white;
-  border-radius: 20%; */
-}
 
 section:last-child {
   margin-bottom: 150px;
