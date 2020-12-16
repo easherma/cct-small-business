@@ -39,110 +39,128 @@
     {
       "image": "project-icons/xquina-incubator.png",
       "title": "Xquina Incubator",
-      "primary-partner": "Project led by Little Village Community Foundation",
-      "other-partners": "In partnership with Illinois Hispanic Chamber of Commerce, State of Illinois Procurement Technical Assistance Center and FourStar Branding, as well as local universities.",
-      "description": "Creating an open, accessible and inclusive learning environment that provides bilingual, adaptable training and coaching for current and emerging businesses, working-class residents, media professionals and local youth. ",
-      "additional-description": "The Little Village Community Foundation and its core partners are providing technical business support, branding, entrepreneurial training and a bilingual, immigrant-focused, cohort-based program.",
-      "call-to-action": "For more information about the Xquina Incubator, contact Kim Close at kim@littlevillagechamber.org."
-    },
-    {
-      "image": "project-icons/creating-and-supporting-businesses-of-color.png",
-      "title": "Belmont Cragin Business Collaborative (BCBC)",
-      "primary-partner": "Project led by Northwest Side Housing Center",
-      "other-partners": "In partnership with the Women’s Business Development Center, Chicago Police Department (25th), CIBC Bank, Local Initiatives Support Corporation Chicago and Associated Bank.",
-      "description": "Providing personalized business capacity building and access to new, flexible and patient capital in the Belmont Cragin neighborhood.   ",
-      "additional-description": "This partnership is working to promote safe, beautiful streets along the commercial corridor in the Belmont Cragin neighborhood.",
-      "call-to-action": "For more information about the Belmont Cragin Business Collaborative, contact Jason Estremera at Jestremera@northwestsidecdc.org."
-    },
-    {
-      "image": "project-icons/empresarias-del-futuro.png",
-      "title": "Empresarias del Futuro",
-      "primary-partner": "Project led by Mujeres Latinas En Acción",
-      "other-partners": "In partnership with the Brighton Park Neighborhood Council.",
-      "description": "Offering an adult-learning entrepreneurship model that services low and moderate-income women, particularly Spanish-speaking and immigrant women.",
-      "additional-description": "In recognition of a growing market in Brighton Park, from its headquarters in Pilsen, Latin Women in Action is partnering with the Brighton Park Neighborhood Council to expand its successful Empresarias del Futuro entrepreneur program. A long-standing and trusted community organizing group, coalition leader and service provider, Brighton Park Neighborhood Council plays an important role in referrals and relationship building with the community.",
-      "call-to-action": "For more information about Empresarias del Futuro, contact Fanny Cano  at fcano@mujereslat.org."
-    },
-    {
-      "title": "Basic Financials for Business",
-      "image": "project-icons/basic-financials-for-business.png",
-      "primary-partner": "Project led by Greater Southwest Development Corporation",
-      "other-partners": "In partnership with Greater Englewood Chamber of Commerce, Emerald South Economic Development Collaborative and Rogers Park Business Alliance.",
-      "description": "Training and connecting businesses of color and of dual language to each other and a collective array of resources, with a focus on increasing access to capital. \n",
-      "additional-description": "This partnership is expanding its business financial readiness curriculum to additional neighborhoods and increasing the number of entrepreneurs successfully obtaining financing. It is also establishing an alumni network that will gather three times over the course of the year to connect and collaborate.",
-      "call-to-action": "For more information about Basic Financials for Business, contact Erika Gonzalez at e.gonzalez@greatersouthwest.org."
-    },
-    {
-      "image": "project-icons/financial-literacy-dashboard-for-small-business-project.png",
-      "title": "Financial Literacy Dashboard for Small Business Project",
-      "primary-partner": "Project led by New Development Corporation",
-      "other-partners": "In partnership with New Covenant CDC, Sunshine Enterprises and the North Lawndale Chamber.",
-      "description": "Working together to provide specific training in the area of financial management for small and micro-businesses.",
-      "additional-description": "These partners, who have a strong working relationship, work with entrepreneurs to start or grow businesses. They strive to serve 75-100 entrepreneurs by increasing from three to five cohorts and expanding to serve both the South and West sides of Chicago.",
-      "call-to-action": "For more information about Financial Literacy Dashboard for Small Business Project, contact Rodney Brown at rodney@new-covenantcdc.org."
+      "primary-partner": "Project led by Little Village Community Foundation Corp",
+      "other-partners": "In partnership with Business Technology Education Center (BTEC).",
+      "description": "Xquina Incubator is a commercial and cultural amenity that enhances quality of life through an open, accessible and inclusive business learning environment. ",
+      "additional-description": "Xquina provides bilingual, adaptable entrepreneurial training and coaching for current and emerging businesses, media professionals, and local youth.",
+      "call-to-action": "For more information about the Xquina Incubator, contact Kim Close at kim@littlevillagechamber.org"
     },
     {
       "image": "project-icons/foodlab.png",
-      "title": "FoodLab Chicago",
+      "title": "The Chicago Resilient Food Business Partnership",
+      "primary-partner": "Project led by Chicago Food Policy Advisory Council",
+      "other-partners": "In partnership with Upside Down Consulting and Grow Greater Englewood.",
+      "description": "The Chicago Resilient Food Business Partnership will lead a business training program built around the current experience of urban farmers and food producers of color from the south and west sides of the city. ",
+      "additional-description": "The partnership will increase expertise in farming practices, accessing land, food business licensure, capitalization by providing hands-on financial technical assistance. The partnership also plans to uplift and expand a growing ecosystem of Black and Latinx food businesses will serve as a support network for those businesses.",
+      "call-to-action": "For more information about the The Chicago Resilient Food Business Partnership, contact Rodger Cooley at rcooley@chicagofoodpolicy.org"
+    },
+    {
+      "image": "project-icons/creating-and-supporting-businesses-of-color.png",
+      "title": "EMPOWER",
+      "primary-partner": "Project led by Chicago Neighborhood MicroFinance Group ",
+      "other-partners": "In the partnership with Business Services Collective.",
+      "description": "Chicago Neighborhood Initiatives Micro Finance Group (CNIMFG) and Business Services Collective will partner to create a pilot to deliver a comprehensive set of support to contractors of color.",
+      "additional-description": "The services will include a robust back-office system providing access to capital services and connection to construction projects.",
+      "call-to-action": "For more information about EMPOWER, contact Erica King at eking@cnigroup.org"
+    },
+    {
+      "title": "Greater Southwest Development Association",
+      "image": "project-icons/creating-and-supporting-businesses-of-color.png",
+      "primary-partner": "Project led by Greater Southwest Development Corporation ",
+      "other-partners": "In partnership with Greater Englewood Chamber of Commerce.",
+      "description": "Greater Southwest Development Corporation will partner with Greater Englewood Chamber of Commerce, and Rogers Park Business Alliance",
+      "additional-description": "To train and/or connect businesses of color and of dual language to each other and its collective array of resources around financial management.",
+      "call-to-action": "For more information about Greater Southwest Development Association, contact Adrian Soto at a.soto@greatersouthwest.org"
+    },
+    {
+      "image": "project-icons/empresarias-del-futuro.png",
+      "title": "Financial Literacy Dashboard for Small Business Project",
+      "primary-partner": "Project led by New Covenant Community Development Center ",
+      "other-partners": "In partnership with Sunshine Enterprises, Puerto Rican Cultural Center (PRCC), and Small Business Majority Foundation. ",
+      "description": "New Covenant CDC, Sunshine Enterprises and The North Lawndale Chamber will work together to provide specific training for small and micro businesses in the area of financial management. ",
+      "additional-description": "This partnership will work with those that are planning to start a business and those planning to expand their business.",
+      "call-to-action": "For more information about Financial Literacy Dashboard for Small Business Project, contact Rodney Brown at rodney@new-covenantcdc.org"
+    },
+    {
+      "image": "project-icons/foodlab.png",
+      "title": "FoodLab Chicago 2.0",
       "primary-partner": "Project led by Greater Chatham Initiative",
       "other-partners": "In partnership with FoodLab Detroit, Association for Enterprise Opportunity and South Shore Chamber of Commerce.",
-      "description": "Providing integrated services to mature food businesses owned by people of color in the South Shore and Chatham communities by addressing acute barriers that hamper their growth.",
-      "additional-description": "FoodLab Detroit has created an effective model for developing cohorts of industry-specialized food entrepreneurs to provide not only technical support but also strong network ties between food businesses of color facing similar growth opportunities and challenges. Through this work, the partnership will establish a new FoodLab Chicago to provide in-person technical assistance to the 25 food businesses that are the nucleus of Restaurant Row and 71st Street.",
-      "call-to-action": "For more information about FoodLab Chicago, contact Nedra Sims at nedra@greaterchathaminitiative.org."
+      "description": "In partnership with FoodLab Detroit and Association for Enterprise Opportunity, Greater Chatham Initiative and South Shore Chamber of Commerce ",
+      "additional-description": "will provide integrated services to largely mature food businesses owned by people of color, addressing acute barriers that hamper their growth.",
+      "call-to-action": "For more information about FoodLab Chicago, contact Nedra Sims Fears at nedra@greaterchathaminitiative.org"
     },
     {
       "image": "project-icons/light-bulb.png",
       "title": "Light Bulb",
       "primary-partner": "Project led by Elevate Energy",
-      "other-partners": "In partnership with Sustainable Options for Urban Living (SOUL) and Business Services Collective.",
-      "description": "Reducing barriers for minority contractors through shared back office services. ",
-      "additional-description": "This partnership is launching a pilot to provide operational capacity and back office services for solar construction businesses owned by people of color. The project focuses on businesses that have been receiving technical training from Elevate Energy and SOUL on energy efficiency and solar installations and will start initially with helping these companies set up the systems they need to bid for contracts. The ultimate goal is to build out a suite of back office business services.",
-      "call-to-action": "For more information about Light Bulb, contact Jeanine Otte at Jeanine.Otte@elevateenergy.org."
+      "other-partners": "In partnership with Sustainable Options for Urban Living (SOUL).",
+      "description": "Elevate Energy, Sustainable Options for Urban Living (SOUL) and Business Services Collective (BSC) are continuing their piloting of a shared back office approach -that offers subsidized wraparound services to build operational capacity for businesses of color that are in the solar and energy sector. ",
+      "additional-description": "The partners are creating an \"Opportunity Hub\" to streamline opportunities for energy efficiency and solar projects in a central online space for businesses to bid on. The second year is designed to offer services within a sliding scale fee-for-service model, as well as subsidized versions of new service offerings such as project management.",
+      "call-to-action": "For more information about Light Bulb, contact Anne Evens at Anne.Evens@ElevateEnergy.org"
     },
     {
-      "image": "project-icons/se-chicago-cooperative-businesses-partnership.png",
-      "title": "Southeast Chicago Cooperative Businesses Partnership",
-      "primary-partner": "Project led by Centro de Trabajadores Unidos Immigrant Workers Project",
-      "other-partners": "In partnership with United Workers’ Center (CTU), Adelante Center for Entrepreneurship, John Marshall Law School and Chicago Food Policy Action Council.",
-      "description": "Offering a new 12-week business bootcamp on the Southeast Side of Chicago and South Suburbs that will provide comprehensive business development services for low-income, immigrant and Latinx-owned worker cooperatives. ",
-      "additional-description": "The Partnership aims to increase the number of immigrant and Latinx cooperative firms on the Southeast Side of Chicago and South Suburbs to address the unique needs, vulnerabilities and aspirations of low-income Latinx workers and support them in creating collective worker-run enterprises.",
-      "call-to-action": "For more information about Southeast Chicago Cooperative Business Partnership, contact Ava Tomasula Garcia at agarcia@ctu-iwp.org."
+      "image": "project-icons/basic-financials-for-business.png",
+      "title": "Financial Capacity Program ",
+      "primary-partner": "Project led by The Northwest Side Community Development Corporation  ",
+      "other-partners": "In partnership with Women’s Business Development Center.",
+      "description": "The Northwest Side Community Development Corporation will partner with the Women's Business Development Center, Chicago Police Department (25th), CIBC Bank, LISC Chicago and Associated Bank ",
+      "additional-description": "to provide personalized business capacity building, expand access to new, flexible, and patient capital, and promote safe, beautiful streets along the Northwest side corridors.",
+      "call-to-action": "For more information about the Financial Capacity Program, contact Jason Estremera at jestremera@northwestsidecdc.org"
     },
     {
-      "image": "project-icons/franchise-initiative-training.png",
-      "title": "Franchise Initiative Training and Tracking 2.0",
-      "primary-partner": "Project led by Emerald South Economic Development Collaborative",
-      "other-partners": "In partnership with Far South Community Development Corporation, Chicago TREND, Sunshine Enterprises and Illinois Restaurant Association.",
-      "description": "Outlining the opportunity, process and level of commitment needed for local businesses on Chicago’s South Side to successfully launch and operate franchises.",
-      "additional-description": "This partnership is leveraging relationships with a range of franchise brands to gain and apply an understanding of their franchisee selection criteria and expectations to share with participating entrepreneurs of color. This program leverages Chicago Trends’ last year of work to recruit, develop and finance new franchise owners of color and help these entrepreneurs start businesses in communities of color with less risk, due to the power of franchise brands.",
-      "call-to-action": "For more information about Franchise Initiative Training and Tracking 2.0, contact Ghian Foreman at ghian.foreman@emeraldsouth.org."
+      "image": "project-icons/basic-financials-for-business.png",
+      "title": "Bolstering Access to Capital and Financial Management ",
+      "primary-partner": "Project led by Small Business Majority Foundation Corp",
+      "other-partners": "In partnership with New Covenant Community Development Corporation and Rogers Park Business Alliance.",
+      "description": "Chicago entrepreneurs of color partnership Small Business Majority, New Covenant Community Development Corporation and Rogers Park Business Alliance ",
+      "additional-description": "will partner to increase access to capital, business support and credit-building strategies for Chicago’s entrepreneurs of color.",
+      "call-to-action": "For more information about Bolstering Access to Capital and Financial Management, contact Gerri Aglipay at gaglipay@smallbusinessmajority.org"
     },
     {
-      "image": "project-icons/coordinating-services-to-support-chicago.png",
-      "title": "Coordinating Services to Support Chicago’s Entrepreneurs of Color",
-      "primary-partner": "Project led by Small Business Majority",
-      "other-partners": "In partnership with Rogers Park Business Alliance and Working Credit.",
-      "description": "Offering in-depth business education for local entrepreneurs of color. ",
-      "additional-description": "This partnership is working to increase the capacity and effectiveness of each organization, increasing entrepreneurs’ access to capital, business resources and credit-building strategies. Through this partnership, they will enhance an already successful business curriculum by integrating the three partners’ expertise.",
-      "call-to-action": "For more information about Coordinating Services to Support Chicago’s Entrepreneurs of Color, contact Geri Aglipay at gaglipay@smallbusinessmajority.org."
+      "image": "project-icons/empresarias-del-futuro.png",
+      "title": "South Shore Collaboration for Business Growth",
+      "primary-partner": "Project led by Sunshine Enterprises ",
+      "other-partners": "In partnership with South Shore Chamber of Commerce.",
+      "description": "Sunshine Enterprises and the South Shore Chamber of Commerce will work together to expand services to local entrepreneurs living or doing business in Chicago's South Shore neighborhood. ",
+      "additional-description": "The partnership will provide locally available, culturally relevant training (knowledge capital) and mentoring services (social capital) with an emphasis on business development, marketing and preparedness for financial capital. While not exclusively designed for artist-based businesses, a strong emphasis on serving the artist community will be incorporated as the partners leverage existing organizational strengths and artist's needs.",
+      "call-to-action": "For more information about South Shore Collaboration for Business Growth, contact Jair Pinedo at Jair@sunshineenterprises.com"
     },
     {
-      "image": "project-icons/a-model-for-increasing-the-pipeline.png",
-      "title": "A Model for Increasing the Pipeline of Minority Business Participation in Public Infrastructure",
-      "primary-partner": "Project led by Local Initiatives Support Corporation",
-      "other-partners": "In partnership with Chicago Transit Authority.",
-      "description": "Leveraging the Chicago Transit Authority’s Red/Purple Line modernization construction contract to lower barriers and increase participation success for business owners of color. ",
-      "additional-description": "This program is developing qualified bidders using LISC’s flexible capital, network of partners, CTA and the prime contractor to not only help the CTA meet its 20% minority business (DBE) requirement, but to ensure that smaller, often unsuccessful bidders are prepared and supported to compete for the various components of this three to five-year construction procurement process.",
-      "call-to-action": "For more information about A Model for Increasing the Pipeline of Minority Business Participation in Public Infrastructure, contact Caroline Rendon at ctrendon@lisc.org."
+      "image": "project-icons/basic-financials-for-business.png",
+      "title": "Financial Management Fundamentals Initiative for South Side Small Businesses",
+      "primary-partner": "Project led by The University of Chicago, Office of Civic Engagement ",
+      "other-partners": "In partnership with Chicago Community Loan Fund, Seaway, and GN Bank.",
+      "description": "University of Chicago’s Office of Civic Engagement and the Polsky Center for Entrepreneurship and Innovation will partner with the Chicago Community Loan Fund, Seaway, and GN Bank to co-design and pilot a new nine-week Financial Management Fundamentals Initiative. ",
+      "additional-description": "This initiative will provide local entrepreneurs with tailored technical assistance, consultation, workshops, and coaching on fundamental business finance in response to South Side businesses’ financial readiness needs and gaps as identified by local financial institutions. Entrepreneurs of color will build financial management knowledge and skills and access direct pathways to participate in Polsky’s Small Business Growth Program and be better positioned to apply for and absorb financial capital.",
+      "call-to-action": "For more information about Financial Management Fundamentals Initiative for South Side Small Businesses, contact Alyssa Berman-Cutler at alyssabc@uchicago.edu"
     },
     {
-      "image": "project-icons/expanding-minority-business-access-.png",
-      "title": "Expanding Minority Business Access (EMBA)—Connections, Contracts and Capital",
-      "primary-partner": "Project led by Women’s Business Development Center",
-      "other-partners": "In partnership with the Chicago Minority Supplier Development Council.",
-      "description": "Increasing exposure and opportunities for business owners of color. ",
-      "additional-description": "This partnership has a three-part focus: advancing and deepening business development curriculum through a train-the-trainer curriculum for neighborhood business service organizations; expanding markets and mentorship networks; and increasing access to capital.",
-      "call-to-action": "For more information about Expanding Minority Business Access, contact Georgia Marsh at gmarsh@wbdc.org. "
+      "image": "project-icons/foodlab.png",
+      "title": "The Bronzeville Culinary Incubator",
+      "primary-partner": "Project led by Urban Juncture Foundation ",
+      "other-partners": "In partnership with Lettuce Entertain You Enterprises, Chicago Community Loan Fund, Creative Genius Law Firm, IL SBDC at Build Bronzeville, Causing A Stir, Bean Soup Times, Inc. & Black Chicago Eats, and Quad Communities Development Corporation.",
+      "description": "The Bronzeville Culinary Incubator will bring together key industry, community, and resource partners to facilitate the launch and growth of Black culinary businesses in Chicago, particularly businesses operating in Black communities in Chicago. ",
+      "additional-description": "The program identifies and nurtures Black culinary professionals and entrepreneurs by creating a diverse network partnership.",
+      "call-to-action": "For more information about The Bronzeville Culinary Incubator, contact Bernard Lloyd at bloyd@urbanjuncture.com"
+    },
+    {
+      "image": "project-icons/empresarias-del-futuro.png",
+      "title": "Expanding Minority Business Access Expanding Minority Business Access (EMBA) ",
+      "primary-partner": "Project led by Women’s Business Development Center ",
+      "other-partners": "In partnership with Chicago Minority Suppliers Development Council.",
+      "additional-description": "WBDC and Chicago Minority Suppliers Development Council will develop a module and toolkit; facilitate business service organization train the trainer sessions; leverage corporate, government and Women and Minority Business Enterprise subject matter expertise; and, offer direct lending to expand procurement and contracting for businesses of color.",
+      "call-to-action": "For more information about Expanding Minority Business Access Expanding Minority Business Access (EMBA), contact Georgia Marsh at gmarsh@wbdc.org",
+      "description": "Expanding Minority Business Access (EMBA) will increase exposure to private and public sector contracting and procurement opportunities for minority business owners. "
+    },
+    {
+      "image": "project-icons/creating-and-supporting-businesses-of-color.png",
+      "title": "The SDA Stimulus Program",
+      "primary-partner": "Project led by South Suburban Mayors and Managers Association",
+      "other-partners": "In partnership with Intuition Enterprise, Inc., River Oaks CDC, Tax Squad LLC, Chicago TREND, Elevate Energy, League of Black Women, SB Partners, The Lonely Entrepreneur, and Chicago Southland Chamber.",
+      "additional-description": "The SDA's financial assistance will partner with Gold Leaf Capital to provide flexible lending products. Their working capital and bonding program will partner with Inner-City Underwriting Agency and HUB International to provide contractors with working capital and bonding for contractors.",
+      "call-to-action": "For more information about The SDA Stimulus Program, contact Ashley Bakelmun at ashley@rw-ventures.com",
+      "description": "The Southland Development Authority, SDA Stimulus Program will provide targeted, industry-specific technical and financial assistance to businesses in the South Suburbs owned by people of color to address the immediate effects of the COVID-19 pandemic while planning for equitable recovery and sustained, inclusive growth for the region. "
     }
   ],
   "site-additional-description": "A collaboration between The Chicago Community Trust,  The Coleman Foundation, JPMorgan Chase Foundation, Robert R. McCormick Foundation, Leslie Bluhm and David Helfand, Peter and Lucy Ascoli Family Fund, and the Liz and Don Thompson Family Fund.",
